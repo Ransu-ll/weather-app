@@ -11,17 +11,21 @@
 </head>
 <body>
     <h1 class="centre">Aussie's Weather Webapp</h1>
+
     <label for="townsearch">
-        <p class="centre">
-            Which town would you like to find information on?
-            <br>
-            <input id="townsearch" list="towns">
-        </p>
+    <p class="centre">
+        Which town would you like to find information on?
+        <br>
+        <input id="townsearch" list="towns">
+        <button type="submit">Go</button>
+    </p>
     </label>
     <datalist id="towns">
-        {% for town in towns %}
+        {% for town in towns.keys() %}
             <option value="{{ town|e }}"></option>
         {% endfor %}
     </datalist>
+    
+
 </body>
 </html>

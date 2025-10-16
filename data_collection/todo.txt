@@ -1,0 +1,10 @@
+okay so, what essentially needs to happen is:
+- get a list of all locations that BoM offers forecasting weather
+- from each location, collect:
+    - minimum temp
+    - maximum temp
+    - precipitation chance
+    - wind? [difficult]
+    - precis
+- figure out a way to get data for one location from two XML files (BoM wtf???)
+- 

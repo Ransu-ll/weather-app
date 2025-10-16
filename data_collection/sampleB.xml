@@ -1,0 +1,68 @@
+<!-- D:\Repoistories\weather-app\data_collection\downloads\IDD10207.xml -->
+<area aac="NT_PT135" description="Twin Falls" type="location" parent-aac="NT_PW003">
+    <forecast-period index="0" start-time-local="2025-10-12T20:00:00+09:30" end-time-local="2025-10-13T00:00:00+09:30" start-time-utc="2025-10-12T10:30:00Z" end-time-utc="2025-10-12T14:30:00Z">
+        <element type="forecast_icon_code">3</element>
+        <text type="precis">Partly cloudy.</text>
+        <text type="probability_of_precipitation">20%</text>
+    </forecast-period>
+    <forecast-period index="1" start-time-local="2025-10-13T00:00:00+09:30" end-time-local="2025-10-14T00:00:00+09:30" start-time-utc="2025-10-12T14:30:00Z" end-time-utc="2025-10-13T14:30:00Z">
+        <element type="forecast_icon_code">1</element>
+        <element type="air_temperature_minimum" units="Celsius">26</element>
+        <element type="air_temperature_maximum" units="Celsius">37</element>
+        <text type="precis">Sunny.</text>
+        <text type="probability_of_precipitation">10%</text>
+    </forecast-period>
+    <forecast-period index="2" start-time-local="2025-10-14T00:00:00+09:30" end-time-local="2025-10-15T00:00:00+09:30" start-time-utc="2025-10-13T14:30:00Z" end-time-utc="2025-10-14T14:30:00Z">
+        <element type="forecast_icon_code">17</element>
+        <element type="precipitation_range">0 to 1 mm</element>
+        <element type="air_temperature_minimum" units="Celsius">26</element>
+        <element type="air_temperature_maximum" units="Celsius">38</element>
+        <text type="precis">Possible shower developing.</text>
+        <text type="probability_of_precipitation">40%</text>
+    </forecast-period>
+    <forecast-period index="3" start-time-local="2025-10-15T00:00:00+09:30" end-time-local="2025-10-16T00:00:00+09:30" start-time-utc="2025-10-14T14:30:00Z" end-time-utc="2025-10-15T14:30:00Z">
+        <element type="forecast_icon_code">16</element>
+        <element type="precipitation_range">0 to 4 mm</element>
+        <element type="air_temperature_minimum" units="Celsius">27</element>
+        <element type="air_temperature_maximum" units="Celsius">35</element>
+        <text type="precis">Shower or two. Possible storm.</text>
+        <text type="probability_of_precipitation">60%</text>
+    </forecast-period>
+    <forecast-period index="4" start-time-local="2025-10-16T00:00:00+09:30" end-time-local="2025-10-17T00:00:00+09:30" start-time-utc="2025-10-15T14:30:00Z" end-time-utc="2025-10-16T14:30:00Z">
+        <element type="forecast_icon_code">16</element>
+        <element type="precipitation_range">0 to 3 mm</element>
+        <element type="air_temperature_minimum" units="Celsius">25</element>
+        <element type="air_temperature_maximum" units="Celsius">36</element>
+        <text type="precis">Shower or two. Possible storm.</text>
+        <text type="probability_of_precipitation">50%</text>
+    </forecast-period>
+    <forecast-period index="5" start-time-local="2025-10-17T00:00:00+09:30" end-time-local="2025-10-18T00:00:00+09:30" start-time-utc="2025-10-16T14:30:00Z" end-time-utc="2025-10-17T14:30:00Z">
+        <element type="forecast_icon_code">17</element>
+        <element type="precipitation_range">0 to 2 mm</element>
+        <element type="air_temperature_minimum" units="Celsius">26</element>
+        <element type="air_temperature_maximum" units="Celsius">35</element>
+        <text type="precis">Possible afternoon shower.</text>
+        <text type="probability_of_precipitation">40%</text>
+    </forecast-period>
+    <forecast-period index="6" start-time-local="2025-10-18T00:00:00+09:30" end-time-local="2025-10-19T00:00:00+09:30" start-time-utc="2025-10-17T14:30:00Z" end-time-utc="2025-10-18T14:30:00Z">
+        <element type="forecast_icon_code">3</element>
+        <element type="air_temperature_minimum" units="Celsius">26</element>
+        <element type="air_temperature_maximum" units="Celsius">37</element>
+        <text type="precis">Partly cloudy.</text>
+        <text type="probability_of_precipitation">20%</text>
+    </forecast-period>
+    <forecast-period index="7" start-time-local="2025-10-19T00:00:00+09:30" end-time-local="2025-10-20T00:00:00+09:30" start-time-utc="2025-10-18T14:30:00Z" end-time-utc="2025-10-19T14:30:00Z">
+        <element type="forecast_icon_code">3</element>
+        <element type="air_temperature_minimum" units="Celsius">26</element>
+        <element type="air_temperature_maximum" units="Celsius">39</element>
+        <text type="precis">Mostly sunny.</text>
+        <text type="probability_of_precipitation">10%</text>
+    </forecast-period>
+</area>
+<!-- D:\Repoistories\weather-app\data_collection\downloads\IDD10195.xml -->
+<area aac="NT_PT135" description="Twin Falls" type="location" parent-aac="NT_ME002">
+    <forecast-period index="1" start-time-local="2025-10-13T00:00:00+09:30" end-time-local="2025-10-14T00:00:00+09:30" start-time-utc="2025-10-12T14:30:00Z" end-time-utc="2025-10-13T14:30:00Z">
+        <element type="air_temperature_minimum" units="Celsius">26</element>
+        <element type="air_temperature_maximum" units="Celsius">37</element>
+    </forecast-period>
+</area>

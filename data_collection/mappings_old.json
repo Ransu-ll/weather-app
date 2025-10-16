@@ -1,0 +1,3422 @@
+[
+    {
+        "name": "Currie, TAS",
+        "link": "http://www.bom.gov.au/tas/forecasts/currie.shtml",
+        "ids": "IDT16710,IDT16010"
+    },
+    {
+        "name": "Burnie, TAS",
+        "link": "http://www.bom.gov.au/tas/forecasts/burnie.shtml",
+        "ids": "IDT13501"
+    },
+    {
+        "name": "Deloraine, TAS",
+        "link": "http://www.bom.gov.au/tas/forecasts/deloraine.shtml",
+        "ids": "IDT16710,IDT16020"
+    },
+    {
+        "name": "Devonport, TAS",
+        "link": "http://www.bom.gov.au/tas/forecasts/devonport.shtml",
+        "ids": "IDT13503"
+    },
+    {
+        "name": "Latrobe, TAS",
+        "link": "http://www.bom.gov.au/tas/forecasts/latrobe.shtml",
+        "ids": "IDT16710,IDT16020"
+    },
+    {
+        "name": "Marrawah, TAS",
+        "link": "http://www.bom.gov.au/tas/forecasts/marrawah.shtml",
+        "ids": "IDT16710,IDT16020"
+    },
+    {
+        "name": "Penguin, TAS",
+        "link": "http://www.bom.gov.au/tas/forecasts/penguin.shtml",
+        "ids": "IDT16710,IDT16020"
+    },
+    {
+        "name": "Port Sorell, TAS",
+        "link": "http://www.bom.gov.au/tas/forecasts/port-sorell.shtml",
+        "ids": "IDT16710,IDT16020"
+    },
+    {
+        "name": "Railton, TAS",
+        "link": "http://www.bom.gov.au/tas/forecasts/railton.shtml",
+        "ids": "IDT16710,IDT16020"
+    },
+    {
+        "name": "Smithton, TAS",
+        "link": "http://www.bom.gov.au/tas/forecasts/smithton.shtml",
+        "ids": "IDT13507"
+    },
+    {
+        "name": "Stanley, TAS",
+        "link": "http://www.bom.gov.au/tas/forecasts/stanley.shtml",
+        "ids": "IDT16710,IDT16020"
+    },
+    {
+        "name": "Ulverstone, TAS",
+        "link": "http://www.bom.gov.au/tas/forecasts/ulverstone.shtml",
+        "ids": "IDT13511"
+    },
+    {
+        "name": "Wynyard, TAS",
+        "link": "http://www.bom.gov.au/tas/forecasts/wynyard.shtml",
+        "ids": "IDT16710,IDT16020"
+    },
+    {
+        "name": "Sheffield, TAS",
+        "link": "http://www.bom.gov.au/tas/forecasts/sheffield.shtml",
+        "ids": "IDT16710,IDT16020"
+    },
+    {
+        "name": "Launceston, TAS",
+        "link": "http://www.bom.gov.au/tas/forecasts/launceston.shtml",
+        "ids": "IDT13610"
+    },
+    {
+        "name": "Cressy, TAS",
+        "link": "http://www.bom.gov.au/tas/forecasts/cressie.shtml",
+        "ids": "IDT16710,IDT16030"
+    },
+    {
+        "name": "Evandale, TAS",
+        "link": "http://www.bom.gov.au/tas/forecasts/evandale.shtml",
+        "ids": "IDT16710,IDT16030"
+    },
+    {
+        "name": "Exeter, TAS",
+        "link": "http://www.bom.gov.au/tas/forecasts/exeter.shtml",
+        "ids": "IDT16710,IDT16030"
+    },
+    {
+        "name": "George Town, TAS",
+        "link": "http://www.bom.gov.au/tas/forecasts/georgetown.shtml",
+        "ids": "IDT16710,IDT16030"
+    },
+    {
+        "name": "Mowbray, TAS",
+        "link": "http://www.bom.gov.au/tas/forecasts/mowbray.shtml",
+        "ids": "IDT16710,IDT13610"
+    },
+    {
+        "name": "Prospect, TAS",
+        "link": "http://www.bom.gov.au/tas/forecasts/prospect.shtml",
+        "ids": "IDT16710,IDT13610"
+    },
+    {
+        "name": "The Corner, TAS",
+        "link": "http://www.bom.gov.au/tas/forecasts/the-corner.shtml",
+        "ids": "IDT16710,IDT16040"
+    },
+    {
+        "name": "Whitemark, TAS",
+        "link": "http://www.bom.gov.au/tas/forecasts/whitemark.shtml",
+        "ids": "IDT16710,IDT16040"
+    },
+    {
+        "name": "Ben Lomond, TAS",
+        "link": "http://www.bom.gov.au/tas/forecasts/ben-lomond.shtml",
+        "ids": "IDT16710,IDT16050"
+    },
+    {
+        "name": "Bridport, TAS",
+        "link": "http://www.bom.gov.au/tas/forecasts/bridport.shtml",
+        "ids": "IDT16710,IDT16050"
+    },
+    {
+        "name": "Scottsdale, TAS",
+        "link": "http://www.bom.gov.au/tas/forecasts/scottsdale.shtml",
+        "ids": "IDT13506"
+    },
+    {
+        "name": "Bothwell, TAS",
+        "link": "http://www.bom.gov.au/tas/forecasts/bothwell.shtml",
+        "ids": "IDT16710,IDT16060"
+    },
+    {
+        "name": "Cradle Valley, TAS",
+        "link": "http://www.bom.gov.au/tas/forecasts/cradlevalley.shtml",
+        "ids": "IDT13620"
+    },
+    {
+        "name": "Liawenee, TAS",
+        "link": "http://www.bom.gov.au/tas/forecasts/liawenee.shtml",
+        "ids": "IDT16710,IDT16060"
+    },
+    {
+        "name": "Lake St Clair, TAS",
+        "link": "http://www.bom.gov.au/tas/forecasts/lakestclair.shtml",
+        "ids": "IDT13620"
+    },
+    {
+        "name": "New Pelion Hut, TAS",
+        "link": "http://www.bom.gov.au/tas/forecasts/new-pelion-hut.shtml",
+        "ids": "IDT16710,IDT13620"
+    },
+    {
+        "name": "Tarraleah, TAS",
+        "link": "http://www.bom.gov.au/tas/forecasts/tarraleah.shtml",
+        "ids": "IDT16710,IDT16060"
+    },
+    {
+        "name": "Strahan, TAS",
+        "link": "http://www.bom.gov.au/tas/forecasts/strahan.shtml",
+        "ids": "IDT13509"
+    },
+    {
+        "name": "Maydena, TAS",
+        "link": "http://www.bom.gov.au/tas/forecasts/maydena.shtml",
+        "ids": "IDT16710,IDT16070"
+    },
+    {
+        "name": "Melaleuca, TAS",
+        "link": "http://www.bom.gov.au/tas/forecasts/melaleuca.shtml",
+        "ids": "IDT16710,IDT16070"
+    },
+    {
+        "name": "Mount Field, TAS",
+        "link": "http://www.bom.gov.au/tas/forecasts/mount-field.shtml",
+        "ids": "IDT16710,IDT16070"
+    },
+    {
+        "name": "Queenstown, TAS",
+        "link": "http://www.bom.gov.au/tas/forecasts/queenstown.shtml",
+        "ids": "IDT13505"
+    },
+    {
+        "name": "Rosebery, TAS",
+        "link": "http://www.bom.gov.au/tas/forecasts/rosebery.shtml",
+        "ids": "IDT16710,IDT16070"
+    },
+    {
+        "name": "Strathgordon, TAS",
+        "link": "http://www.bom.gov.au/tas/forecasts/strathgordon.shtml",
+        "ids": "IDT16710,IDT16070"
+    },
+    {
+        "name": "Waratah, TAS",
+        "link": "http://www.bom.gov.au/tas/forecasts/waratah.shtml",
+        "ids": "IDT16710,IDT16070"
+    },
+    {
+        "name": "Zeehan, TAS",
+        "link": "http://www.bom.gov.au/tas/forecasts/zeehan.shtml",
+        "ids": "IDT16710,IDT16070"
+    },
+    {
+        "name": "Campbell Town, TAS",
+        "link": "http://www.bom.gov.au/tas/forecasts/cambelltown.shtml",
+        "ids": "IDT13502"
+    },
+    {
+        "name": "Oatlands, TAS",
+        "link": "http://www.bom.gov.au/tas/forecasts/oatlands.shtml",
+        "ids": "IDT16710,IDT16080"
+    },
+    {
+        "name": "Ross, TAS",
+        "link": "http://www.bom.gov.au/tas/forecasts/ross.shtml",
+        "ids": "IDT16710,IDT16080"
+    },
+    {
+        "name": "Tunnack, TAS",
+        "link": "http://www.bom.gov.au/tas/forecasts/tunnack.shtml",
+        "ids": "IDT16710,IDT16080"
+    },
+    {
+        "name": "Bicheno, TAS",
+        "link": "http://www.bom.gov.au/tas/forecasts/bicheno.shtml",
+        "ids": "IDT16710,IDT16090"
+    },
+    {
+        "name": "Coles Bay, TAS",
+        "link": "http://www.bom.gov.au/tas/forecasts/coles-bay.shtml",
+        "ids": "IDT16710,IDT16090"
+    },
+    {
+        "name": "St Helens, TAS",
+        "link": "http://www.bom.gov.au/tas/forecasts/sthelens.shtml",
+        "ids": "IDT13508"
+    },
+    {
+        "name": "Fingal, TAS",
+        "link": "http://www.bom.gov.au/tas/forecasts/fingal.shtml",
+        "ids": "IDT16710,IDT16090"
+    },
+    {
+        "name": "Orford, TAS",
+        "link": "http://www.bom.gov.au/tas/forecasts/orford.shtml",
+        "ids": "IDT16710,IDT16090"
+    },
+    {
+        "name": "St Marys, TAS",
+        "link": "http://www.bom.gov.au/tas/forecasts/st-marys.shtml",
+        "ids": "IDT16710,IDT16090"
+    },
+    {
+        "name": "Maria Island, TAS",
+        "link": "http://www.bom.gov.au/tas/forecasts/maria-island.shtml",
+        "ids": "IDT16710,IDT16090"
+    },
+    {
+        "name": "Swansea, TAS",
+        "link": "http://www.bom.gov.au/tas/forecasts/swansea.shtml",
+        "ids": "IDT13510"
+    },
+    {
+        "name": "New Norfolk, TAS",
+        "link": "http://www.bom.gov.au/tas/forecasts/newnorfolk.shtml",
+        "ids": "IDT13504"
+    },
+    {
+        "name": "Ouse, TAS",
+        "link": "http://www.bom.gov.au/tas/forecasts/ouse.shtml",
+        "ids": "IDT16710,IDT16110"
+    },
+    {
+        "name": "Campania, TAS",
+        "link": "http://www.bom.gov.au/tas/forecasts/campania.shtml",
+        "ids": "IDT16710,IDT16120"
+    },
+    {
+        "name": "Hobart, TAS",
+        "link": "http://www.bom.gov.au/tas/forecasts/hobart.shtml",
+        "ids": "IDT13600"
+    },
+    {
+        "name": "Kunanyi/Mount Wellington, TAS",
+        "link": "http://www.bom.gov.au/tas/forecasts/mtwellington.shtml",
+        "ids": "IDT16710,IDT16120"
+    },
+    {
+        "name": "Adventure Bay, TAS",
+        "link": "http://www.bom.gov.au/tas/forecasts/adventure-bay.shtml",
+        "ids": "IDT16710,IDT16120"
+    },
+    {
+        "name": "Bellerive, TAS",
+        "link": "http://www.bom.gov.au/tas/forecasts/bellerive.shtml",
+        "ids": "IDT16710,IDT13600"
+    },
+    {
+        "name": "Brighton, TAS",
+        "link": "http://www.bom.gov.au/tas/forecasts/brighton.shtml",
+        "ids": "IDT16710,IDT16120"
+    },
+    {
+        "name": "Cygnet, TAS",
+        "link": "http://www.bom.gov.au/tas/forecasts/cygnet.shtml",
+        "ids": "IDT16710,IDT16120"
+    },
+    {
+        "name": "Dover, TAS",
+        "link": "http://www.bom.gov.au/tas/forecasts/dover.shtml",
+        "ids": "IDT16710,IDT16120"
+    },
+    {
+        "name": "Geeveston, TAS",
+        "link": "http://www.bom.gov.au/tas/forecasts/geeveston.shtml",
+        "ids": "IDT16710,IDT16120"
+    },
+    {
+        "name": "Glenorchy, TAS",
+        "link": "http://www.bom.gov.au/tas/forecasts/glenorchy.shtml",
+        "ids": "IDT16710,IDT13600"
+    },
+    {
+        "name": "Huonville, TAS",
+        "link": "http://www.bom.gov.au/tas/forecasts/huonville.shtml",
+        "ids": "IDT16710,IDT16120"
+    },
+    {
+        "name": "Kingston, TAS",
+        "link": "http://www.bom.gov.au/tas/forecasts/kingston.shtml",
+        "ids": "IDT16710,IDT13600"
+    },
+    {
+        "name": "Port Arthur, TAS",
+        "link": "http://www.bom.gov.au/tas/forecasts/portarthur.shtml",
+        "ids": "IDT16710,IDT16120"
+    },
+    {
+        "name": "Richmond, TAS",
+        "link": "http://www.bom.gov.au/tas/forecasts/richmond.shtml",
+        "ids": "IDT16710,IDT16120"
+    },
+    {
+        "name": "Sorell, TAS",
+        "link": "http://www.bom.gov.au/tas/forecasts/sorell.shtml",
+        "ids": "IDT16710,IDT16120"
+    },
+    {
+        "name": "Mildura, VIC",
+        "link": "http://www.bom.gov.au/vic/forecasts/mildura.shtml",
+        "ids": "IDV10714"
+    },
+    {
+        "name": "Swan Hill, VIC",
+        "link": "http://www.bom.gov.au/vic/forecasts/swanhill.shtml",
+        "ids": "IDV10723"
+    },
+    {
+        "name": "Kerang, VIC",
+        "link": "http://www.bom.gov.au/vic/forecasts/kerang.shtml",
+        "ids": "IDV10753,IDV17001"
+    },
+    {
+        "name": "Ouyen, VIC",
+        "link": "http://www.bom.gov.au/vic/forecasts/ouyen.shtml",
+        "ids": "IDV10753,IDV17001"
+    },
+    {
+        "name": "Birchip, VIC",
+        "link": "http://www.bom.gov.au/vic/forecasts/birchip.shtml",
+        "ids": "IDV10753,IDV17001"
+    },
+    {
+        "name": "Horsham, VIC",
+        "link": "http://www.bom.gov.au/vic/forecasts/horsham.shtml",
+        "ids": "IDV10711"
+    },
+    {
+        "name": "Stawell, VIC",
+        "link": "http://www.bom.gov.au/vic/forecasts/stawell.shtml",
+        "ids": "IDV10753,IDV17002"
+    },
+    {
+        "name": "Warracknabeal, VIC",
+        "link": "http://www.bom.gov.au/vic/forecasts/warracknabeal.shtml",
+        "ids": "IDV10753,IDV17002"
+    },
+    {
+        "name": "Nhill, VIC",
+        "link": "http://www.bom.gov.au/vic/forecasts/nhill.shtml",
+        "ids": "IDV10753,IDV17002"
+    },
+    {
+        "name": "Edenhope, VIC",
+        "link": "http://www.bom.gov.au/vic/forecasts/edenhope.shtml",
+        "ids": "IDV10753,IDV17002"
+    },
+    {
+        "name": "Bendigo, VIC",
+        "link": "http://www.bom.gov.au/vic/forecasts/bendigo.shtml",
+        "ids": "IDV10706"
+    },
+    {
+        "name": "Shepparton, VIC",
+        "link": "http://www.bom.gov.au/vic/forecasts/shepparton.shtml",
+        "ids": "IDV10722"
+    },
+    {
+        "name": "Echuca, VIC",
+        "link": "http://www.bom.gov.au/vic/forecasts/echuca.shtml",
+        "ids": "IDV10708"
+    },
+    {
+        "name": "Kyabram, VIC",
+        "link": "http://www.bom.gov.au/vic/forecasts/kyabram.shtml",
+        "ids": "IDV10753,IDV17003"
+    },
+    {
+        "name": "Tatura, VIC",
+        "link": "http://www.bom.gov.au/vic/forecasts/tatura.shtml",
+        "ids": "IDV10753,IDV17003"
+    },
+    {
+        "name": "Yarrawonga, VIC",
+        "link": "http://www.bom.gov.au/vic/forecasts/yarrawonga.shtml",
+        "ids": "IDV10753,IDV17003"
+    },
+    {
+        "name": "Redesdale, VIC",
+        "link": "http://www.bom.gov.au/vic/forecasts/redesdale.shtml",
+        "ids": "IDV10753,IDV17003"
+    },
+    {
+        "name": "Cobram, VIC",
+        "link": "http://www.bom.gov.au/vic/forecasts/cobram.shtml",
+        "ids": "IDV10753,IDV17003"
+    },
+    {
+        "name": "Seymour, VIC",
+        "link": "http://www.bom.gov.au/vic/forecasts/seymour.shtml",
+        "ids": "IDV10721"
+    },
+    {
+        "name": "Maryborough, VIC",
+        "link": "http://www.bom.gov.au/vic/forecasts/maryborough.shtml",
+        "ids": "IDV10753,IDV17004"
+    },
+    {
+        "name": "Castlemaine, VIC",
+        "link": "http://www.bom.gov.au/vic/forecasts/castlemaine.shtml",
+        "ids": "IDV10753,IDV17004"
+    },
+    {
+        "name": "Lake Eildon, VIC",
+        "link": "http://www.bom.gov.au/vic/forecasts/lakeeildon.shtml",
+        "ids": "IDV10753,IDV17004"
+    },
+    {
+        "name": "Lake Mountain, VIC",
+        "link": "http://www.bom.gov.au/vic/forecasts/lake-mountain.shtml",
+        "ids": "IDV10753,IDV17004"
+    },
+    {
+        "name": "Albury-Wodonga, VIC",
+        "link": "http://www.bom.gov.au/vic/forecasts/wodonga.shtml",
+        "ids": "IDV10703"
+    },
+    {
+        "name": "Wangaratta, VIC",
+        "link": "http://www.bom.gov.au/vic/forecasts/wangaratta.shtml",
+        "ids": "IDV10725"
+    },
+    {
+        "name": "Mount Buller, VIC",
+        "link": "http://www.bom.gov.au/vic/forecasts/mountbuller.shtml",
+        "ids": "IDV10715"
+    },
+    {
+        "name": "Mount Hotham, VIC",
+        "link": "http://www.bom.gov.au/vic/forecasts/mounthotham.shtml",
+        "ids": "IDV10717"
+    },
+    {
+        "name": "Falls Creek, VIC",
+        "link": "http://www.bom.gov.au/vic/forecasts/fallscreek.shtml",
+        "ids": "IDV10730"
+    },
+    {
+        "name": "Rutherglen, VIC",
+        "link": "http://www.bom.gov.au/vic/forecasts/rutherglen.shtml",
+        "ids": "IDV10753,IDV17005"
+    },
+    {
+        "name": "Benalla, VIC",
+        "link": "http://www.bom.gov.au/vic/forecasts/benalla.shtml",
+        "ids": "IDV10753,IDV17005"
+    },
+    {
+        "name": "Beechworth, VIC",
+        "link": "http://www.bom.gov.au/vic/forecasts/beechworth.shtml",
+        "ids": "IDV10753,IDV17005"
+    },
+    {
+        "name": "Corryong, VIC",
+        "link": "http://www.bom.gov.au/vic/forecasts/corryong.shtml",
+        "ids": "IDV10753,IDV17005"
+    },
+    {
+        "name": "Mansfield, VIC",
+        "link": "http://www.bom.gov.au/vic/forecasts/mansfield.shtml",
+        "ids": "IDV10753,IDV17005"
+    },
+    {
+        "name": "Warrnambool, VIC",
+        "link": "http://www.bom.gov.au/vic/forecasts/warrnambool.shtml",
+        "ids": "IDV10726"
+    },
+    {
+        "name": "Colac, VIC",
+        "link": "http://www.bom.gov.au/vic/forecasts/colac.shtml",
+        "ids": "IDV10707"
+    },
+    {
+        "name": "Ararat, VIC",
+        "link": "http://www.bom.gov.au/vic/forecasts/ararat.shtml",
+        "ids": "IDV10753,IDV17101"
+    },
+    {
+        "name": "Casterton, VIC",
+        "link": "http://www.bom.gov.au/vic/forecasts/casterton.shtml",
+        "ids": "IDV10753,IDV17101"
+    },
+    {
+        "name": "Hamilton, VIC",
+        "link": "http://www.bom.gov.au/vic/forecasts/hamilton.shtml",
+        "ids": "IDV10710"
+    },
+    {
+        "name": "Mortlake, VIC",
+        "link": "http://www.bom.gov.au/vic/forecasts/mortlake.shtml",
+        "ids": "IDV10753,IDV17101"
+    },
+    {
+        "name": "Heywood, VIC",
+        "link": "http://www.bom.gov.au/vic/forecasts/heywood.shtml",
+        "ids": "IDV10753,IDV17101"
+    },
+    {
+        "name": "Portland, VIC",
+        "link": "http://www.bom.gov.au/vic/forecasts/portland.shtml",
+        "ids": "IDV10753,IDV17101"
+    },
+    {
+        "name": "Port Fairy, VIC",
+        "link": "http://www.bom.gov.au/vic/forecasts/portfairy.shtml",
+        "ids": "IDV10753,IDV17101"
+    },
+    {
+        "name": "Cape Otway, VIC",
+        "link": "http://www.bom.gov.au/vic/forecasts/capeotway.shtml",
+        "ids": "IDV10753,IDV17101"
+    },
+    {
+        "name": "Weeaproinah, VIC",
+        "link": "http://www.bom.gov.au/vic/forecasts/weeaproinah.shtml",
+        "ids": "IDV10753,IDV17101"
+    },
+    {
+        "name": "Melbourne, VIC",
+        "link": "http://www.bom.gov.au/vic/forecasts/melbourne.shtml",
+        "ids": "IDV10450"
+    },
+    {
+        "name": "Geelong, VIC",
+        "link": "http://www.bom.gov.au/vic/forecasts/geelong.shtml",
+        "ids": "IDV10701"
+    },
+    {
+        "name": "Ballarat, VIC",
+        "link": "http://www.bom.gov.au/vic/forecasts/ballarat.shtml",
+        "ids": "IDV10705"
+    },
+    {
+        "name": "Avalon, VIC",
+        "link": "http://www.bom.gov.au/vic/forecasts/avalon.shtml",
+        "ids": "IDV10753,IDV10701"
+    },
+    {
+        "name": "Laverton, VIC",
+        "link": "http://www.bom.gov.au/vic/forecasts/laverton.shtml",
+        "ids": "IDV10753,IDV10450"
+    },
+    {
+        "name": "Tullamarine, VIC",
+        "link": "http://www.bom.gov.au/vic/forecasts/tullamarine.shtml",
+        "ids": "IDV10753,IDV10450"
+    },
+    {
+        "name": "Moorabbin, VIC",
+        "link": "http://www.bom.gov.au/vic/forecasts/moorabbin.shtml",
+        "ids": "IDV10753,IDV10450"
+    },
+    {
+        "name": "Scoresby, VIC",
+        "link": "http://www.bom.gov.au/vic/forecasts/scoresby.shtml",
+        "ids": "IDV10753,IDV10450"
+    },
+    {
+        "name": "Watsonia, VIC",
+        "link": "http://www.bom.gov.au/vic/forecasts/watsonia.shtml",
+        "ids": "IDV10753,IDV10450"
+    },
+    {
+        "name": "Mount Dandenong, VIC",
+        "link": "http://www.bom.gov.au/vic/forecasts/mountdandenong.shtml",
+        "ids": "IDV10716"
+    },
+    {
+        "name": "Yarra Glen, VIC",
+        "link": "http://www.bom.gov.au/vic/forecasts/yarraglen.shtml",
+        "ids": "IDV10753,IDV10450"
+    },
+    {
+        "name": "Frankston, VIC",
+        "link": "http://www.bom.gov.au/vic/forecasts/frankston.shtml",
+        "ids": "IDV10753,IDV10450"
+    },
+    {
+        "name": "Cranbourne, VIC",
+        "link": "http://www.bom.gov.au/vic/forecasts/cranbourne.shtml",
+        "ids": "IDV10753,IDV10450"
+    },
+    {
+        "name": "Mornington, VIC",
+        "link": "http://www.bom.gov.au/vic/forecasts/mornington.shtml",
+        "ids": "IDV10702"
+    },
+    {
+        "name": "Cerberus, VIC",
+        "link": "http://www.bom.gov.au/vic/forecasts/cerberus.shtml",
+        "ids": "IDV10753,IDV10702"
+    },
+    {
+        "name": "Phillip Island, VIC",
+        "link": "http://www.bom.gov.au/vic/forecasts/phillipisland.shtml",
+        "ids": "IDV10753,IDV17102"
+    },
+    {
+        "name": "Rhyll, VIC",
+        "link": "http://www.bom.gov.au/vic/forecasts/rhyll.shtml",
+        "ids": "IDV10753,IDV17102"
+    },
+    {
+        "name": "Dandenong, VIC",
+        "link": "http://www.bom.gov.au/vic/forecasts/dandenong.shtml",
+        "ids": "IDV10753,IDV10450"
+    },
+    {
+        "name": "Aireys Inlet, VIC",
+        "link": "http://www.bom.gov.au/vic/forecasts/aireysinlet.shtml",
+        "ids": "IDV10753,IDV10701"
+    },
+    {
+        "name": "Wonthaggi, VIC",
+        "link": "http://www.bom.gov.au/vic/forecasts/wonthaggi.shtml",
+        "ids": "IDV10728"
+    },
+    {
+        "name": "Gisborne, VIC",
+        "link": "http://www.bom.gov.au/vic/forecasts/gisborne.shtml",
+        "ids": "IDV10753,IDV17102"
+    },
+    {
+        "name": "Kyneton, VIC",
+        "link": "http://www.bom.gov.au/vic/forecasts/kyneton.shtml",
+        "ids": "IDV10753,IDV17102"
+    },
+    {
+        "name": "Melton, VIC",
+        "link": "http://www.bom.gov.au/vic/forecasts/melton.shtml",
+        "ids": "IDV10753,IDV10450"
+    },
+    {
+        "name": "Pakenham, VIC",
+        "link": "http://www.bom.gov.au/vic/forecasts/pakenham.shtml",
+        "ids": "IDV10753,IDV10450"
+    },
+    {
+        "name": "Sunbury, VIC",
+        "link": "http://www.bom.gov.au/vic/forecasts/sunbury.shtml",
+        "ids": "IDV10753,IDV10450"
+    },
+    {
+        "name": "Torquay, VIC",
+        "link": "http://www.bom.gov.au/vic/forecasts/torquay.shtml",
+        "ids": "IDV10753,IDV10701"
+    },
+    {
+        "name": "Latrobe Valley, VIC",
+        "link": "http://www.bom.gov.au/vic/forecasts/latrobevalley.shtml",
+        "ids": "IDV10712"
+    },
+    {
+        "name": "Sale, VIC",
+        "link": "http://www.bom.gov.au/vic/forecasts/sale.shtml",
+        "ids": "IDV10719"
+    },
+    {
+        "name": "Drouin, VIC",
+        "link": "http://www.bom.gov.au/vic/forecasts/drouin.shtml",
+        "ids": "IDV10753,IDV17103"
+    },
+    {
+        "name": "Traralgon, VIC",
+        "link": "http://www.bom.gov.au/vic/forecasts/traralgon.shtml",
+        "ids": "IDV10753,IDV17103"
+    },
+    {
+        "name": "Wilsons Promontory, VIC",
+        "link": "http://www.bom.gov.au/vic/forecasts/wilsonspromontory.shtml",
+        "ids": "IDV10753,IDV17103"
+    },
+    {
+        "name": "Mount Baw Baw, VIC",
+        "link": "http://www.bom.gov.au/vic/forecasts/mountbawbaw.shtml",
+        "ids": "IDV10753,IDV17103"
+    },
+    {
+        "name": "Leongatha, VIC",
+        "link": "http://www.bom.gov.au/vic/forecasts/leongatha.shtml",
+        "ids": "IDV10753,IDV17103"
+    },
+    {
+        "name": "Moe, VIC",
+        "link": "http://www.bom.gov.au/vic/forecasts/moe.shtml",
+        "ids": "IDV10753,IDV17103"
+    },
+    {
+        "name": "Warragul, VIC",
+        "link": "http://www.bom.gov.au/vic/forecasts/warragul.shtml",
+        "ids": "IDV10753,IDV17103"
+    },
+    {
+        "name": "Bairnsdale, VIC",
+        "link": "http://www.bom.gov.au/vic/forecasts/bairnsdale.shtml",
+        "ids": "IDV10704"
+    },
+    {
+        "name": "Orbost, VIC",
+        "link": "http://www.bom.gov.au/vic/forecasts/orbost.shtml",
+        "ids": "IDV10718"
+    },
+    {
+        "name": "Lakes Entrance, VIC",
+        "link": "http://www.bom.gov.au/vic/forecasts/lakesentrance.shtml",
+        "ids": "IDV10753,IDV17104"
+    },
+    {
+        "name": "Mallacoota, VIC",
+        "link": "http://www.bom.gov.au/vic/forecasts/mallacoota.shtml",
+        "ids": "IDV10753,IDV17104"
+    },
+    {
+        "name": "Omeo, VIC",
+        "link": "http://www.bom.gov.au/vic/forecasts/omeo.shtml",
+        "ids": "IDV10753,IDV17104"
+    },
+    {
+        "name": "Adelaide, SA",
+        "link": "http://www.bom.gov.au/sa/forecasts/adelaide.shtml",
+        "ids": "IDS10034"
+    },
+    {
+        "name": "Elizabeth, SA",
+        "link": "http://www.bom.gov.au/sa/forecasts/elizabeth.shtml",
+        "ids": "IDS10044,IDS10034"
+    },
+    {
+        "name": "Glenelg, SA",
+        "link": "http://www.bom.gov.au/sa/forecasts/glenelg.shtml",
+        "ids": "IDS10044,IDS10034"
+    },
+    {
+        "name": "Noarlunga, SA",
+        "link": "http://www.bom.gov.au/sa/forecasts/noarlunga.shtml",
+        "ids": "IDS10044,IDS10034"
+    },
+    {
+        "name": "Nuriootpa, SA",
+        "link": "http://www.bom.gov.au/sa/forecasts/nuriootpa.shtml",
+        "ids": "IDS10044,IDS11041"
+    },
+    {
+        "name": "Victor Harbor, SA",
+        "link": "http://www.bom.gov.au/sa/forecasts/victor-harbor.shtml",
+        "ids": "IDS10044,IDS11041"
+    },
+    {
+        "name": "Mount Barker, SA",
+        "link": "http://www.bom.gov.au/sa/forecasts/mount-barker.shtml",
+        "ids": "IDS11016"
+    },
+    {
+        "name": "Parawa, SA",
+        "link": "http://www.bom.gov.au/sa/forecasts/parawa.shtml",
+        "ids": "IDS10044,IDS11041"
+    },
+    {
+        "name": "Stirling, SA",
+        "link": "http://www.bom.gov.au/sa/forecasts/stirling.shtml",
+        "ids": "IDS10044,IDS11041"
+    },
+    {
+        "name": "Strathalbyn, SA",
+        "link": "http://www.bom.gov.au/sa/forecasts/strathalbyn.shtml",
+        "ids": "IDS10044,IDS11041"
+    },
+    {
+        "name": "Maitland, SA",
+        "link": "http://www.bom.gov.au/sa/forecasts/maitland.shtml",
+        "ids": "IDS10044,IDS11042"
+    },
+    {
+        "name": "Edithburgh, SA",
+        "link": "http://www.bom.gov.au/sa/forecasts/edithburgh.shtml",
+        "ids": "IDS10044,IDS11042"
+    },
+    {
+        "name": "Kadina, SA",
+        "link": "http://www.bom.gov.au/sa/forecasts/kadina.shtml",
+        "ids": "IDS10044,IDS11042"
+    },
+    {
+        "name": "Minlaton, SA",
+        "link": "http://www.bom.gov.au/sa/forecasts/minlaton.shtml",
+        "ids": "IDS10044,IDS11042"
+    },
+    {
+        "name": "Stenhouse Bay, SA",
+        "link": "http://www.bom.gov.au/sa/forecasts/stenhousebay.shtml",
+        "ids": "IDS10044,IDS11042"
+    },
+    {
+        "name": "Kingscote, SA",
+        "link": "http://www.bom.gov.au/sa/forecasts/kingscote.shtml",
+        "ids": "IDS10044,IDS11043"
+    },
+    {
+        "name": "Parndana, SA",
+        "link": "http://www.bom.gov.au/sa/forecasts/parndana.shtml",
+        "ids": "IDS10044,IDS11043"
+    },
+    {
+        "name": "Mount Gambier, SA",
+        "link": "http://www.bom.gov.au/sa/forecasts/mount-gambier.shtml",
+        "ids": "IDS11004"
+    },
+    {
+        "name": "Naracoorte, SA",
+        "link": "http://www.bom.gov.au/sa/forecasts/naracoorte.shtml",
+        "ids": "IDS10044,IDS11045"
+    },
+    {
+        "name": "Coonawarra, SA",
+        "link": "http://www.bom.gov.au/sa/forecasts/coonawarra.shtml",
+        "ids": "IDS10044,IDS11045"
+    },
+    {
+        "name": "Robe, SA",
+        "link": "http://www.bom.gov.au/sa/forecasts/robe.shtml",
+        "ids": "IDS10044,IDS11045"
+    },
+    {
+        "name": "Keith, SA",
+        "link": "http://www.bom.gov.au/sa/forecasts/keith.shtml",
+        "ids": "IDS10044,IDS11044"
+    },
+    {
+        "name": "Bordertown, SA",
+        "link": "http://www.bom.gov.au/sa/forecasts/bordertown.shtml",
+        "ids": "IDS10044,IDS11044"
+    },
+    {
+        "name": "Meningie, SA",
+        "link": "http://www.bom.gov.au/sa/forecasts/meningie.shtml",
+        "ids": "IDS10044,IDS11044"
+    },
+    {
+        "name": "Murray Bridge, SA",
+        "link": "http://www.bom.gov.au/sa/forecasts/murray-bridge.shtml",
+        "ids": "IDS10044,IDS11047"
+    },
+    {
+        "name": "Karoonda, SA",
+        "link": "http://www.bom.gov.au/sa/forecasts/karoonda.shtml",
+        "ids": "IDS10044,IDS11047"
+    },
+    {
+        "name": "Lameroo, SA",
+        "link": "http://www.bom.gov.au/sa/forecasts/lameroo.shtml",
+        "ids": "IDS10044,IDS11047"
+    },
+    {
+        "name": "Renmark, SA",
+        "link": "http://www.bom.gov.au/sa/forecasts/renmark.shtml",
+        "ids": "IDS11003"
+    },
+    {
+        "name": "Waikerie, SA",
+        "link": "http://www.bom.gov.au/sa/forecasts/waikerie.shtml",
+        "ids": "IDS10044,IDS11046"
+    },
+    {
+        "name": "Port Pirie, SA",
+        "link": "http://www.bom.gov.au/sa/forecasts/port-pirie.shtml",
+        "ids": "IDS10044,IDS11048"
+    },
+    {
+        "name": "Jamestown, SA",
+        "link": "http://www.bom.gov.au/sa/forecasts/jamestown.shtml",
+        "ids": "IDS10044,IDS11048"
+    },
+    {
+        "name": "Clare, SA",
+        "link": "http://www.bom.gov.au/sa/forecasts/clare.shtml",
+        "ids": "IDS10044,IDS11048"
+    },
+    {
+        "name": "Roseworthy, SA",
+        "link": "http://www.bom.gov.au/sa/forecasts/roseworthy.shtml",
+        "ids": "IDS10044,IDS11048"
+    },
+    {
+        "name": "Snowtown, SA",
+        "link": "http://www.bom.gov.au/sa/forecasts/snowtown.shtml",
+        "ids": "IDS10044,IDS11048"
+    },
+    {
+        "name": "Hawker, SA",
+        "link": "http://www.bom.gov.au/sa/forecasts/hawker.shtml",
+        "ids": "IDS10044,IDS11049"
+    },
+    {
+        "name": "Port Augusta, SA",
+        "link": "http://www.bom.gov.au/sa/forecasts/port-augusta.shtml",
+        "ids": "IDS10044,IDS11049"
+    },
+    {
+        "name": "Orroroo, SA",
+        "link": "http://www.bom.gov.au/sa/forecasts/orroroo.shtml",
+        "ids": "IDS10044,IDS11049"
+    },
+    {
+        "name": "Whyalla, SA",
+        "link": "http://www.bom.gov.au/sa/forecasts/whyalla.shtml",
+        "ids": "IDS11001"
+    },
+    {
+        "name": "Cleve, SA",
+        "link": "http://www.bom.gov.au/sa/forecasts/cleve.shtml",
+        "ids": "IDS10044,IDS11051"
+    },
+    {
+        "name": "Kimba, SA",
+        "link": "http://www.bom.gov.au/sa/forecasts/kimba.shtml",
+        "ids": "IDS10044,IDS11051"
+    },
+    {
+        "name": "Port Lincoln, SA",
+        "link": "http://www.bom.gov.au/sa/forecasts/port-lincoln.shtml",
+        "ids": "IDS11002"
+    },
+    {
+        "name": "Coffin Bay, SA",
+        "link": "http://www.bom.gov.au/sa/forecasts/coffinbay.shtml",
+        "ids": "IDS10044,IDS11052"
+    },
+    {
+        "name": "Cummins, SA",
+        "link": "http://www.bom.gov.au/sa/forecasts/cummins.shtml",
+        "ids": "IDS10044,IDS11052"
+    },
+    {
+        "name": "Ceduna, SA",
+        "link": "http://www.bom.gov.au/sa/forecasts/ceduna.shtml",
+        "ids": "IDS10044,IDS11050"
+    },
+    {
+        "name": "Wudinna, SA",
+        "link": "http://www.bom.gov.au/sa/forecasts/wudinna.shtml",
+        "ids": "IDS10044,IDS11050"
+    },
+    {
+        "name": "Elliston, SA",
+        "link": "http://www.bom.gov.au/sa/forecasts/elliston.shtml",
+        "ids": "IDS10044,IDS11050"
+    },
+    {
+        "name": "Nullarbor, SA",
+        "link": "http://www.bom.gov.au/sa/forecasts/nullarbor.shtml",
+        "ids": "IDS10044,IDS11050"
+    },
+    {
+        "name": "Coober Pedy, SA",
+        "link": "http://www.bom.gov.au/sa/forecasts/coober-pedy.shtml",
+        "ids": "IDS10044,IDS11053"
+    },
+    {
+        "name": "Roxby Downs, SA",
+        "link": "http://www.bom.gov.au/sa/forecasts/roxby-downs.shtml",
+        "ids": "IDS10044,IDS11053"
+    },
+    {
+        "name": "Woomera, SA",
+        "link": "http://www.bom.gov.au/sa/forecasts/woomera.shtml",
+        "ids": "IDS10044,IDS11053"
+    },
+    {
+        "name": "Pukatja/Ernabella, SA",
+        "link": "http://www.bom.gov.au/sa/forecasts/ernabella.shtml",
+        "ids": "IDS10044,IDS11053"
+    },
+    {
+        "name": "Marla, SA",
+        "link": "http://www.bom.gov.au/sa/forecasts/marla.shtml",
+        "ids": "IDS10044,IDS11053"
+    },
+    {
+        "name": "Oak Valley, SA",
+        "link": "http://www.bom.gov.au/sa/forecasts/oakvalley.shtml",
+        "ids": "IDS10044,IDS11053"
+    },
+    {
+        "name": "Tarcoola, SA",
+        "link": "http://www.bom.gov.au/sa/forecasts/tarcoola.shtml",
+        "ids": "IDS10044,IDS11053"
+    },
+    {
+        "name": "Leigh Creek, SA",
+        "link": "http://www.bom.gov.au/sa/forecasts/leigh-creek.shtml",
+        "ids": "IDS10044,IDS11054"
+    },
+    {
+        "name": "Marree, SA",
+        "link": "http://www.bom.gov.au/sa/forecasts/marree.shtml",
+        "ids": "IDS10044,IDS11054"
+    },
+    {
+        "name": "Moomba, SA",
+        "link": "http://www.bom.gov.au/sa/forecasts/moomba.shtml",
+        "ids": "IDS10044,IDS11054"
+    },
+    {
+        "name": "Oodnadatta, SA",
+        "link": "http://www.bom.gov.au/sa/forecasts/oodnadatta.shtml",
+        "ids": "IDS10044,IDS11054"
+    },
+    {
+        "name": "Yunta, SA",
+        "link": "http://www.bom.gov.au/sa/forecasts/yunta.shtml",
+        "ids": "IDS10044,IDS11054"
+    },
+    {
+        "name": "Broome, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/broome.shtml",
+        "ids": "IDW14101"
+    },
+    {
+        "name": "Derby, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/derby.shtml",
+        "ids": "IDW14199,IDW13220"
+    },
+    {
+        "name": "Fitzroy Crossing, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/fitzroy-crossing.shtml",
+        "ids": "IDW14199,IDW13220"
+    },
+    {
+        "name": "Kalumburu, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/kalumburu.shtml",
+        "ids": "IDW14199,IDW13220"
+    },
+    {
+        "name": "Wyndham, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/wyndham.shtml",
+        "ids": "IDW14199,IDW13220"
+    },
+    {
+        "name": "Kununurra, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/kununurra.shtml",
+        "ids": "IDW14112"
+    },
+    {
+        "name": "Argyle, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/argyle.shtml",
+        "ids": "IDW14199,IDW13220"
+    },
+    {
+        "name": "Halls Creek MO, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/halls-creek.shtml",
+        "ids": "IDW14199,IDW13220"
+    },
+    {
+        "name": "Bidyadanga, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/bidyadanga.shtml",
+        "ids": "IDW14199,IDW13220"
+    },
+    {
+        "name": "Wallal, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/wallal.shtml",
+        "ids": "IDW14199,IDW13220"
+    },
+    {
+        "name": "Lombadina, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/lombadina.shtml",
+        "ids": "IDW14199,IDW13220"
+    },
+    {
+        "name": "Exmouth, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/exmouth.shtml",
+        "ids": "IDW14105"
+    },
+    {
+        "name": "Onslow, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/onslow.shtml",
+        "ids": "IDW14199,IDW13210"
+    },
+    {
+        "name": "Karratha, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/karratha.shtml",
+        "ids": "IDW14103"
+    },
+    {
+        "name": "Roebourne, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/roebourne.shtml",
+        "ids": "IDW14199,IDW13210"
+    },
+    {
+        "name": "Port Hedland, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/port-hedland.shtml",
+        "ids": "IDW14102"
+    },
+    {
+        "name": "Marble Bar, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/marble-bar.shtml",
+        "ids": "IDW14199,IDW13210"
+    },
+    {
+        "name": "Paraburdoo, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/paraburdoo.shtml",
+        "ids": "IDW14199,IDW13210"
+    },
+    {
+        "name": "Tom Price, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/tom-price.shtml",
+        "ids": "IDW14199,IDW13210"
+    },
+    {
+        "name": "Newman, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/newman.shtml",
+        "ids": "IDW14104"
+    },
+    {
+        "name": "Barrow Island, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/barrow-island.shtml",
+        "ids": "IDW14199,IDW13210"
+    },
+    {
+        "name": "Dampier, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/dampier.shtml",
+        "ids": "IDW14199,IDW13210"
+    },
+    {
+        "name": "Pannawonica, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/pannawonica.shtml",
+        "ids": "IDW14199,IDW13210"
+    },
+    {
+        "name": "Telfer, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/telfer.shtml",
+        "ids": "IDW14199,IDW13210"
+    },
+    {
+        "name": "Carnarvon, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/carnarvon.shtml",
+        "ids": "IDW14106"
+    },
+    {
+        "name": "Coral Bay, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/coral-bay.shtml",
+        "ids": "IDW14199,IDW13180"
+    },
+    {
+        "name": "Meekatharra, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/meekatharra.shtml",
+        "ids": "IDW14113"
+    },
+    {
+        "name": "Denham, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/denham.shtml",
+        "ids": "IDW14199,IDW13180"
+    },
+    {
+        "name": "Gascoyne Junction, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/gascoyne-junction.shtml",
+        "ids": "IDW14199,IDW13180"
+    },
+    {
+        "name": "Mount Magnet, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/mount-magnet.shtml",
+        "ids": "IDW14199,IDW13180"
+    },
+    {
+        "name": "Mount Augustus, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/mount-augustus.shtml",
+        "ids": "IDW14199,IDW13180"
+    },
+    {
+        "name": "Murchison, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/murchison.shtml",
+        "ids": "IDW14199,IDW13180"
+    },
+    {
+        "name": "Paynes Find, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/paynes-find.shtml",
+        "ids": "IDW14199,IDW13180"
+    },
+    {
+        "name": "Yalgoo, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/yalgoo.shtml",
+        "ids": "IDW14199,IDW13180"
+    },
+    {
+        "name": "Kalgoorlie, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/kalgoorlie.shtml",
+        "ids": "IDW14108"
+    },
+    {
+        "name": "Leonora, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/leonora.shtml",
+        "ids": "IDW14199,IDW13190"
+    },
+    {
+        "name": "Laverton, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/laverton.shtml",
+        "ids": "IDW14199,IDW13190"
+    },
+    {
+        "name": "Leinster, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/leinster.shtml",
+        "ids": "IDW14199,IDW13190"
+    },
+    {
+        "name": "Norseman, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/norseman.shtml",
+        "ids": "IDW14199,IDW13190"
+    },
+    {
+        "name": "Coolgardie, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/coolgardie.shtml",
+        "ids": "IDW14199,IDW13190"
+    },
+    {
+        "name": "Kambalda, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/kambalda.shtml",
+        "ids": "IDW14199,IDW13190"
+    },
+    {
+        "name": "Wiluna, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/wiluna.shtml",
+        "ids": "IDW14199,IDW13190"
+    },
+    {
+        "name": "Eucla, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/eucla.shtml",
+        "ids": "IDW14199,IDW13200"
+    },
+    {
+        "name": "Balladonia, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/balladonia.shtml",
+        "ids": "IDW14199,IDW13200"
+    },
+    {
+        "name": "Cocklebiddy, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/cocklebiddy.shtml",
+        "ids": "IDW14199,IDW13200"
+    },
+    {
+        "name": "Balgo Hill, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/balgo-hill.shtml",
+        "ids": "IDW14199,IDW13240"
+    },
+    {
+        "name": "Kiwirrkurra, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/kiwirrkurra.shtml",
+        "ids": "IDW14199,IDW13240"
+    },
+    {
+        "name": "Warburton, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/warburton.shtml",
+        "ids": "IDW14199,IDW13230"
+    },
+    {
+        "name": "Kalbarri, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/kalbarri.shtml",
+        "ids": "IDW14199,IDW13110"
+    },
+    {
+        "name": "Geraldton, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/geraldton.shtml",
+        "ids": "IDW14107"
+    },
+    {
+        "name": "Jurien Bay, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/jurien-bay.shtml",
+        "ids": "IDW14199,IDW13110"
+    },
+    {
+        "name": "Morawa, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/morawa.shtml",
+        "ids": "IDW14199,IDW13110"
+    },
+    {
+        "name": "Moora, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/moora.shtml",
+        "ids": "IDW14199,IDW13110"
+    },
+    {
+        "name": "Badgingarra, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/badgingarra.shtml",
+        "ids": "IDW14199,IDW13110"
+    },
+    {
+        "name": "Carnamah, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/carnamah.shtml",
+        "ids": "IDW14199,IDW13110"
+    },
+    {
+        "name": "Dongara, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/dongara.shtml",
+        "ids": "IDW14199,IDW13110"
+    },
+    {
+        "name": "Eneabba, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/eneabba.shtml",
+        "ids": "IDW14199,IDW13110"
+    },
+    {
+        "name": "Mullewa, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/mullewa.shtml",
+        "ids": "IDW14199,IDW13110"
+    },
+    {
+        "name": "Northampton, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/northampton.shtml",
+        "ids": "IDW14199,IDW13110"
+    },
+    {
+        "name": "Ellenbrook, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/ellenbrook.shtml",
+        "ids": "IDW14199,IDW12300"
+    },
+    {
+        "name": "Yanchep, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/yanchep.shtml",
+        "ids": "IDW14199,IDW12300"
+    },
+    {
+        "name": "Perth, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/perth.shtml",
+        "ids": "IDW12300"
+    },
+    {
+        "name": "Joondalup, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/joondalup.shtml",
+        "ids": "IDW14199,IDW12300"
+    },
+    {
+        "name": "Scarborough, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/scarborough.shtml",
+        "ids": "IDW14199,IDW12300"
+    },
+    {
+        "name": "Fremantle, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/fremantle.shtml",
+        "ids": "IDW14199,IDW12300"
+    },
+    {
+        "name": "Rockingham, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/rockingham.shtml",
+        "ids": "IDW14199,IDW12300"
+    },
+    {
+        "name": "Midland, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/midland.shtml",
+        "ids": "IDW14199,IDW12300"
+    },
+    {
+        "name": "Kalamunda, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/kalamunda.shtml",
+        "ids": "IDW14199,IDW12300"
+    },
+    {
+        "name": "Armadale, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/armadale.shtml",
+        "ids": "IDW14199,IDW12300"
+    },
+    {
+        "name": "Swanbourne, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/swanbourne.shtml",
+        "ids": "IDW14199,IDW12300"
+    },
+    {
+        "name": "Rottnest Island, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/rottnest-island.shtml",
+        "ids": "IDW14199,IDW12300"
+    },
+    {
+        "name": "Mandurah, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/mandurah.shtml",
+        "ids": "IDW14114"
+    },
+    {
+        "name": "Pinjarra, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/pinjarra.shtml",
+        "ids": "IDW14199,IDW13120"
+    },
+    {
+        "name": "Gingin, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/gingin.shtml",
+        "ids": "IDW14199,IDW13120"
+    },
+    {
+        "name": "Lancelin, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/lancelin.shtml",
+        "ids": "IDW14199,IDW13120"
+    },
+    {
+        "name": "Bunbury, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/bunbury.shtml",
+        "ids": "IDW14109"
+    },
+    {
+        "name": "Busselton, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/busselton.shtml",
+        "ids": "IDW14115"
+    },
+    {
+        "name": "Margaret River, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/margaret-river.shtml",
+        "ids": "IDW14199,IDW13130"
+    },
+    {
+        "name": "Augusta, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/augusta.shtml",
+        "ids": "IDW14199,IDW13130"
+    },
+    {
+        "name": "Bridgetown, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/bridgetown.shtml",
+        "ids": "IDW14199,IDW13130"
+    },
+    {
+        "name": "Collie, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/collie.shtml",
+        "ids": "IDW14199,IDW13130"
+    },
+    {
+        "name": "Manjimup, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/manjimup.shtml",
+        "ids": "IDW14199,IDW13130"
+    },
+    {
+        "name": "Boyup Brook, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/boyup-brook.shtml",
+        "ids": "IDW14199,IDW13130"
+    },
+    {
+        "name": "Pemberton, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/pemberton.shtml",
+        "ids": "IDW14199,IDW13130"
+    },
+    {
+        "name": "Yallingup, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/yallingup.shtml",
+        "ids": "IDW14199,IDW13130"
+    },
+    {
+        "name": "Harvey, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/harvey.shtml",
+        "ids": "IDW14199,IDW13130"
+    },
+    {
+        "name": "Walpole, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/walpole.shtml",
+        "ids": "IDW14199,IDW13130"
+    },
+    {
+        "name": "Windy Harbour, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/wind-harbour.shtml",
+        "ids": "IDW14199,IDW13130"
+    },
+    {
+        "name": "Albany, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/albany.shtml",
+        "ids": "IDW14110"
+    },
+    {
+        "name": "Denmark, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/denmark.shtml",
+        "ids": "IDW14199,IDW13140"
+    },
+    {
+        "name": "Mount Barker, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/mount-barker.shtml",
+        "ids": "IDW14199,IDW13140"
+    },
+    {
+        "name": "Jerramungup, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/jerramungup.shtml",
+        "ids": "IDW14199,IDW13140"
+    },
+    {
+        "name": "Bremer Bay, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/bremer-bay.shtml",
+        "ids": "IDW14199,IDW13140"
+    },
+    {
+        "name": "Gnowangerup, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/gnowangerup.shtml",
+        "ids": "IDW14199,IDW13140"
+    },
+    {
+        "name": "Esperance, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/esperance.shtml",
+        "ids": "IDW14111"
+    },
+    {
+        "name": "Ravensthorpe, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/ravensthorpe.shtml",
+        "ids": "IDW14199,IDW13150"
+    },
+    {
+        "name": "Hopetoun, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/hopetoun.shtml",
+        "ids": "IDW14199,IDW13150"
+    },
+    {
+        "name": "Salmon Gums, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/salmon-gums.shtml",
+        "ids": "IDW14199,IDW13150"
+    },
+    {
+        "name": "Narrogin, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/narrogin.shtml",
+        "ids": "IDW14199,IDW13160"
+    },
+    {
+        "name": "Katanning, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/katanning.shtml",
+        "ids": "IDW14199,IDW13160"
+    },
+    {
+        "name": "Lake Grace, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/lake-grace.shtml",
+        "ids": "IDW14199,IDW13160"
+    },
+    {
+        "name": "Hyden, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/hyden.shtml",
+        "ids": "IDW14199,IDW13160"
+    },
+    {
+        "name": "Brookton, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/brookton.shtml",
+        "ids": "IDW14199,IDW13160"
+    },
+    {
+        "name": "Corrigin, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/corrigin.shtml",
+        "ids": "IDW14199,IDW13160"
+    },
+    {
+        "name": "Wagin, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/wagin.shtml",
+        "ids": "IDW14199,IDW13160"
+    },
+    {
+        "name": "Dalwallinu, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/dalwallinu.shtml",
+        "ids": "IDW14199,IDW13170"
+    },
+    {
+        "name": "Northam, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/northam.shtml",
+        "ids": "IDW14199,IDW13170"
+    },
+    {
+        "name": "Merredin, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/merredin.shtml",
+        "ids": "IDW14199,IDW13170"
+    },
+    {
+        "name": "Southern Cross, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/southern-cross.shtml",
+        "ids": "IDW14199,IDW13170"
+    },
+    {
+        "name": "Cunderdin, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/cunderdin.shtml",
+        "ids": "IDW14199,IDW13170"
+    },
+    {
+        "name": "Dowerin, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/dowerin.shtml",
+        "ids": "IDW14199,IDW13170"
+    },
+    {
+        "name": "Mukinbudin, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/mukinbudin.shtml",
+        "ids": "IDW14199,IDW13170"
+    },
+    {
+        "name": "Beacon, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/beacon.shtml",
+        "ids": "IDW14199,IDW13170"
+    },
+    {
+        "name": "Kellerberrin, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/kellerberrin.shtml",
+        "ids": "IDW14199,IDW13170"
+    },
+    {
+        "name": "Wongan Hills, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/wongan-hills.shtml",
+        "ids": "IDW14199,IDW13170"
+    },
+    {
+        "name": "York, WA",
+        "link": "http://www.bom.gov.au/wa/forecasts/york.shtml",
+        "ids": "IDW14199,IDW13170"
+    },
+    {
+        "name": "Acacia Hills, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/acacia-hills.shtml",
+        "ids": "IDD10207"
+    },
+    {
+        "name": "Adelaide River, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/adelaide-river.shtml",
+        "ids": "IDD10207,IDD10196"
+    },
+    {
+        "name": "Bark Hut, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/bark-hut.shtml",
+        "ids": "IDD10207"
+    },
+    {
+        "name": "Batchelor, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/batchelor.shtml",
+        "ids": "IDD10207,IDD10196"
+    },
+    {
+        "name": "Belyuen, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/belyuen.shtml",
+        "ids": "IDD10207,IDD10150"
+    },
+    {
+        "name": "Berrimah, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/berrimah.shtml",
+        "ids": "IDD10207,IDD10150"
+    },
+    {
+        "name": "Berry Springs, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/berry-springs.shtml",
+        "ids": "IDD10207,IDD10150"
+    },
+    {
+        "name": "Coolalinga, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/coolalinga.shtml",
+        "ids": "IDD10207,IDD10150"
+    },
+    {
+        "name": "Darwin Airport, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/darwin-airport.shtml",
+        "ids": "IDD10207,IDD10150"
+    },
+    {
+        "name": "Darwin, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/darwin.shtml",
+        "ids": "IDD10150"
+    },
+    {
+        "name": "Dorisvale, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/dorisvale.shtml",
+        "ids": "IDD10207"
+    },
+    {
+        "name": "Dundee Beach, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/dundee-beach.shtml",
+        "ids": "IDD10207,IDD10150"
+    },
+    {
+        "name": "Florence Falls, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/florence-falls.shtml",
+        "ids": "IDD10207,IDD10196"
+    },
+    {
+        "name": "Howard Springs, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/howard-springs.shtml",
+        "ids": "IDD10207,IDD10150"
+    },
+    {
+        "name": "Humpty Doo, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/humpty-doo.shtml",
+        "ids": "IDD10207,IDD10150"
+    },
+    {
+        "name": "Leanyer, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/leanyer.shtml",
+        "ids": "IDD10207"
+    },
+    {
+        "name": "Nauiyu, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/nauiyu.shtml",
+        "ids": "IDD10207"
+    },
+    {
+        "name": "Nightcliff, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/nightcliff.shtml",
+        "ids": "IDD10207,IDD10150"
+    },
+    {
+        "name": "Noonamah, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/noonamah.shtml",
+        "ids": "IDD10207,IDD10150"
+    },
+    {
+        "name": "Palumpa, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/palumpa.shtml",
+        "ids": "IDD10207"
+    },
+    {
+        "name": "Palmerston, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/palmerston.shtml",
+        "ids": "IDD10206"
+    },
+    {
+        "name": "Peppimenarti, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/peppimenarti.shtml",
+        "ids": "IDD10207"
+    },
+    {
+        "name": "Pine Creek, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/pine-creek.shtml",
+        "ids": "IDD10207"
+    },
+    {
+        "name": "Surprise Creek Falls, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/surprise-creek-falls.shtml",
+        "ids": "IDD10207,IDD10196"
+    },
+    {
+        "name": "Tjaynera Falls, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/tjaynera-falls.shtml",
+        "ids": "IDD10207,IDD10196"
+    },
+    {
+        "name": "Wadeye, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/wadeye.shtml",
+        "ids": "IDD10204"
+    },
+    {
+        "name": "Wagait Beach, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/wagait-beach.shtml",
+        "ids": "IDD10207,IDD10150"
+    },
+    {
+        "name": "Wangi Falls, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/wangi-falls.shtml",
+        "ids": "IDD10196"
+    },
+    {
+        "name": "Wurrumiyanga, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/wurrumiyanga.shtml",
+        "ids": "IDD10209"
+    },
+    {
+        "name": "Milikapiti, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/milikapiti.shtml",
+        "ids": "IDD10207"
+    },
+    {
+        "name": "Pirlangimpi, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/pirlangimpi.shtml",
+        "ids": "IDD10207"
+    },
+    {
+        "name": "Jabiru, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/jabiru.shtml",
+        "ids": "IDD10202"
+    },
+    {
+        "name": "Maningrida, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/maningrida.shtml",
+        "ids": "IDD10205"
+    },
+    {
+        "name": "Nhulunbuy, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/nhulunbuy.shtml",
+        "ids": "IDD10199"
+    },
+    {
+        "name": "Alyangula, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/alyangula.shtml",
+        "ids": "IDD10207"
+    },
+    {
+        "name": "Angurugu, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/angurugu.shtml",
+        "ids": "IDD10207"
+    },
+    {
+        "name": "Barunga, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/barunga.shtml",
+        "ids": "IDD10207"
+    },
+    {
+        "name": "Beswick, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/beswick.shtml",
+        "ids": "IDD10207"
+    },
+    {
+        "name": "Birany Birany, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/birany-birany.shtml",
+        "ids": "IDD10207"
+    },
+    {
+        "name": "Bulman, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/bulman.shtml",
+        "ids": "IDD10207"
+    },
+    {
+        "name": "Burrunggui, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/burrunggui.shtml",
+        "ids": "IDD10207,IDD10195"
+    },
+    {
+        "name": "Cooinda, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/cooinda.shtml",
+        "ids": "IDD10207,IDD10195"
+    },
+    {
+        "name": "Galiwinku, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/galiwinku.shtml",
+        "ids": "IDD10207"
+    },
+    {
+        "name": "Gapuwiyak, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/gapuwiyak.shtml",
+        "ids": "IDD10207"
+    },
+    {
+        "name": "Gunbalanya, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/gunbalanya.shtml",
+        "ids": "IDD10207"
+    },
+    {
+        "name": "Gunlom, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/gunlom.shtml",
+        "ids": "IDD10207,IDD10195"
+    },
+    {
+        "name": "Gunyangara, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/gunyangara.shtml",
+        "ids": "IDD10207"
+    },
+    {
+        "name": "Jim Jim Falls, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/jim-jim-falls.shtml",
+        "ids": "IDD10207,IDD10195"
+    },
+    {
+        "name": "Milingimbi, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/milingimbi.shtml",
+        "ids": "IDD10207"
+    },
+    {
+        "name": "Minjilang, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/minjilang.shtml",
+        "ids": "IDD10207"
+    },
+    {
+        "name": "Ngayawili, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/ngayawili.shtml",
+        "ids": "IDD10207"
+    },
+    {
+        "name": "Ngukurr, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/ngukurr.shtml",
+        "ids": "IDD10207"
+    },
+    {
+        "name": "Nhulunbuy Airport, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/nhulunbuy-airport.shtml",
+        "ids": "IDD10207"
+    },
+    {
+        "name": "Numbulwar, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/numbulwar.shtml",
+        "ids": "IDD10207"
+    },
+    {
+        "name": "Ramingining, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/ramingining.shtml",
+        "ids": "IDD10207"
+    },
+    {
+        "name": "Twin Falls, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/twin-falls.shtml",
+        "ids": "IDD10207,IDD10195"
+    },
+    {
+        "name": "Ubirr, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/ubirr.shtml",
+        "ids": "IDD10207,IDD10195"
+    },
+    {
+        "name": "Warruwi, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/warruwi.shtml",
+        "ids": "IDD10207"
+    },
+    {
+        "name": "Yirrkala, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/yirrkala.shtml",
+        "ids": "IDD10207"
+    },
+    {
+        "name": "Katherine, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/katherine.shtml",
+        "ids": "IDD10200"
+    },
+    {
+        "name": "Borroloola, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/borroloola.shtml",
+        "ids": "IDD10207"
+    },
+    {
+        "name": "Daly Waters, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/daly-waters.shtml",
+        "ids": "IDD10207"
+    },
+    {
+        "name": "Mataranka, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/mataranka.shtml",
+        "ids": "IDD10207"
+    },
+    {
+        "name": "Wollogorang, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/wollogorang.shtml",
+        "ids": "IDD10207"
+    },
+    {
+        "name": "Daguragu, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/daguragu.shtml",
+        "ids": "IDD10207"
+    },
+    {
+        "name": "Newry, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/newry.shtml",
+        "ids": "IDD10207"
+    },
+    {
+        "name": "Timber Creek, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/timber-creek.shtml",
+        "ids": "IDD10207"
+    },
+    {
+        "name": "Tennant Creek, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/tennant-creek.shtml",
+        "ids": "IDD10203"
+    },
+    {
+        "name": "Ali Curung, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/ali-curung.shtml",
+        "ids": "IDD10207"
+    },
+    {
+        "name": "Alpurrurulam, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/alpurrurulam.shtml",
+        "ids": "IDD10207"
+    },
+    {
+        "name": "Ampilatwatja, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/ampilatwatja.shtml",
+        "ids": "IDD10207"
+    },
+    {
+        "name": "Avon Downs, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/avon-downs.shtml",
+        "ids": "IDD10207"
+    },
+    {
+        "name": "Barrow Creek, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/barrow-creek.shtml",
+        "ids": "IDD10207"
+    },
+    {
+        "name": "Cresswell Downs, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/cresswell-downs.shtml",
+        "ids": "IDD10207"
+    },
+    {
+        "name": "Elliott, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/elliott.shtml",
+        "ids": "IDD10207"
+    },
+    {
+        "name": "Alice Springs, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/alice-springs.shtml",
+        "ids": "IDD10161"
+    },
+    {
+        "name": "Alice Springs Airport, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/alice-springs-airport.shtml",
+        "ids": "IDD10207"
+    },
+    {
+        "name": "Arltunga, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/arltunga.shtml",
+        "ids": "IDD10207"
+    },
+    {
+        "name": "Finke, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/finke.shtml",
+        "ids": "IDD10207"
+    },
+    {
+        "name": "Jervois, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/jervois.shtml",
+        "ids": "IDD10207"
+    },
+    {
+        "name": "Kulgera, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/kulgera.shtml",
+        "ids": "IDD10207"
+    },
+    {
+        "name": "Ross River, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/ross-river.shtml",
+        "ids": "IDD10207"
+    },
+    {
+        "name": "Santa Teresa, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/santa-teresa.shtml",
+        "ids": "IDD10207"
+    },
+    {
+        "name": "Ti Tree, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/ti-tree.shtml",
+        "ids": "IDD10207"
+    },
+    {
+        "name": "Titjikala, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/titjikala.shtml",
+        "ids": "IDD10207"
+    },
+    {
+        "name": "Yulara, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/yulara.shtml",
+        "ids": "IDD10201"
+    },
+    {
+        "name": "Curtin Springs, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/curtin-springs.shtml",
+        "ids": "IDD10207"
+    },
+    {
+        "name": "Docker River, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/docker-river.shtml",
+        "ids": "IDD10207"
+    },
+    {
+        "name": "Hermannsburg, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/hermannsburg.shtml",
+        "ids": "IDD10207"
+    },
+    {
+        "name": "Papunya, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/papunya.shtml",
+        "ids": "IDD10207"
+    },
+    {
+        "name": "Uluru, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/uluru.shtml",
+        "ids": "IDD10207,IDD10197"
+    },
+    {
+        "name": "Watarrka, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/watarrka.shtml",
+        "ids": "IDD10207"
+    },
+    {
+        "name": "Wulungurru, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/wulungurru.shtml",
+        "ids": "IDD10207"
+    },
+    {
+        "name": "Lajamanu, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/lajamanu.shtml",
+        "ids": "IDD10207"
+    },
+    {
+        "name": "Rabbit Flat, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/rabbit-flat.shtml",
+        "ids": "IDD10207"
+    },
+    {
+        "name": "Yuendumu, NT",
+        "link": "http://www.bom.gov.au/nt/forecasts/yuendumu.shtml",
+        "ids": "IDD10207"
+    },
+    {
+        "name": "Beaudesert, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/beaudesert.shtml",
+        "ids": "IDQ11295,IDQ10090"
+    },
+    {
+        "name": "Boonah, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/boonah.shtml",
+        "ids": "IDQ11295,IDQ10090"
+    },
+    {
+        "name": "Brisbane, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/brisbane.shtml",
+        "ids": "IDQ10095"
+    },
+    {
+        "name": "Brisbane Airport, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/brisbane-airport.shtml",
+        "ids": "IDQ10095"
+    },
+    {
+        "name": "Caloundra, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/caloundra.shtml",
+        "ids": "IDQ11295,IDQ10611"
+    },
+    {
+        "name": "Chermside, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/chermside.shtml",
+        "ids": "IDQ11295,IDQ10095"
+    },
+    {
+        "name": "Coolangatta, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/coolangatta.shtml",
+        "ids": "IDQ11295,IDQ10610"
+    },
+    {
+        "name": "Coomera, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/coomera.shtml",
+        "ids": "IDQ11295,IDQ10610"
+    },
+    {
+        "name": "Esk, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/esk.shtml",
+        "ids": "IDQ11295,IDQ10090"
+    },
+    {
+        "name": "Ferny Grove, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/ferny-grove.shtml",
+        "ids": "IDQ11295,IDQ10095"
+    },
+    {
+        "name": "Gatton, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/gatton.shtml",
+        "ids": "IDQ11295,IDQ10090"
+    },
+    {
+        "name": "Gold Coast Seaway, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/gold-coast-seaway.shtml",
+        "ids": "IDQ11295,IDQ10610"
+    },
+    {
+        "name": "Ipswich, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/ipswich.shtml",
+        "ids": "IDQ10911"
+    },
+    {
+        "name": "Kenmore, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/kenmore.shtml",
+        "ids": "IDQ11295,IDQ10095"
+    },
+    {
+        "name": "Laidley, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/laidley.shtml",
+        "ids": "IDQ11295,IDQ10090"
+    },
+    {
+        "name": "Maleny, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/maleny.shtml",
+        "ids": "IDQ11295,IDQ10611"
+    },
+    {
+        "name": "Logan Central, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/logan-central.shtml",
+        "ids": "IDQ11295,IDQ10090"
+    },
+    {
+        "name": "Manly, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/manly.shtml",
+        "ids": "IDQ11295,IDQ10095"
+    },
+    {
+        "name": "Maroochydore, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/maroochydore.shtml",
+        "ids": "IDQ10611"
+    },
+    {
+        "name": "Mount Gravatt, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/mount-gravatt.shtml",
+        "ids": "IDQ11295,IDQ10095"
+    },
+    {
+        "name": "Nambour, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/nambour.shtml",
+        "ids": "IDQ11295,IDQ10611"
+    },
+    {
+        "name": "Nerang, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/nerang.shtml",
+        "ids": "IDQ11295,IDQ10610"
+    },
+    {
+        "name": "Noosa Heads, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/noosa-heads.shtml",
+        "ids": "IDQ11295,IDQ10611"
+    },
+    {
+        "name": "Oxley, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/oxley.shtml",
+        "ids": "IDQ11295,IDQ10095"
+    },
+    {
+        "name": "Redcliffe, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/redcliffe.shtml",
+        "ids": "IDQ11295,IDQ10090"
+    },
+    {
+        "name": "Robina, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/robina.shtml",
+        "ids": "IDQ11295,IDQ10610"
+    },
+    {
+        "name": "Surfers Paradise, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/surfers-paradise.shtml",
+        "ids": "IDQ10610"
+    },
+    {
+        "name": "Caboolture, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/caboolture.shtml",
+        "ids": "IDQ11295,IDQ10090"
+    },
+    {
+        "name": "Dalby, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/dalby.shtml",
+        "ids": "IDQ11295,IDQ10230"
+    },
+    {
+        "name": "Goondiwindi, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/goondiwindi.shtml",
+        "ids": "IDQ10908"
+    },
+    {
+        "name": "Toowoomba, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/toowoomba.shtml",
+        "ids": "IDQ10922"
+    },
+    {
+        "name": "Warwick, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/warwick.shtml",
+        "ids": "IDQ11295,IDQ10230"
+    },
+    {
+        "name": "Chinchilla, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/chinchilla.shtml",
+        "ids": "IDQ11295,IDQ10230"
+    },
+    {
+        "name": "Miles, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/miles.shtml",
+        "ids": "IDQ11295,IDQ10230"
+    },
+    {
+        "name": "Oakey, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/oakey.shtml",
+        "ids": "IDQ11295,IDQ10230"
+    },
+    {
+        "name": "Stanthorpe, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/stanthorpe.shtml",
+        "ids": "IDQ11295,IDQ10230"
+    },
+    {
+        "name": "Bundaberg, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/bundaberg.shtml",
+        "ids": "IDQ10901"
+    },
+    {
+        "name": "Gympie, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/gympie.shtml",
+        "ids": "IDQ10909"
+    },
+    {
+        "name": "Hervey Bay, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/hervey-bay.shtml",
+        "ids": "IDQ10910"
+    },
+    {
+        "name": "Kingaroy, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/kingaroy.shtml",
+        "ids": "IDQ11295,IDQ10240"
+    },
+    {
+        "name": "Maryborough, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/maryborough.shtml",
+        "ids": "IDQ10915"
+    },
+    {
+        "name": "Gayndah, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/gayndah.shtml",
+        "ids": "IDQ11295,IDQ10240"
+    },
+    {
+        "name": "Monto, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/monto.shtml",
+        "ids": "IDQ11295,IDQ10240"
+    },
+    {
+        "name": "Gladstone, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/gladstone.shtml",
+        "ids": "IDQ10907"
+    },
+    {
+        "name": "Rockhampton, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/rockhampton.shtml",
+        "ids": "IDQ10918"
+    },
+    {
+        "name": "Biloela, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/biloela.shtml",
+        "ids": "IDQ11295,IDQ10170"
+    },
+    {
+        "name": "Yeppoon, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/yeppoon.shtml",
+        "ids": "IDQ11295,IDQ10170"
+    },
+    {
+        "name": "Emerald, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/emerald.shtml",
+        "ids": "IDQ10906"
+    },
+    {
+        "name": "Blackwater, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/blackwater.shtml",
+        "ids": "IDQ11295,IDQ10180"
+    },
+    {
+        "name": "Clermont, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/clermont.shtml",
+        "ids": "IDQ11295,IDQ10180"
+    },
+    {
+        "name": "Dysart, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/dysart.shtml",
+        "ids": "IDQ11295,IDQ10180"
+    },
+    {
+        "name": "Moranbah, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/moranbah.shtml",
+        "ids": "IDQ11295,IDQ10180"
+    },
+    {
+        "name": "Rolleston, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/rolleston.shtml",
+        "ids": "IDQ11295,IDQ10180"
+    },
+    {
+        "name": "Springsure, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/springsure.shtml",
+        "ids": "IDQ11295,IDQ10180"
+    },
+    {
+        "name": "Taroom, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/taroom.shtml",
+        "ids": "IDQ11295,IDQ10180"
+    },
+    {
+        "name": "Mackay, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/mackay.shtml",
+        "ids": "IDQ10914"
+    },
+    {
+        "name": "Bowen, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/bowen.shtml",
+        "ids": "IDQ11295,IDQ10160"
+    },
+    {
+        "name": "Carmila, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/carmila.shtml",
+        "ids": "IDQ11295,IDQ10160"
+    },
+    {
+        "name": "Hamilton Island, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/hamilton-island.shtml",
+        "ids": "IDQ11295,IDQ10160"
+    },
+    {
+        "name": "Proserpine, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/proserpine.shtml",
+        "ids": "IDQ11295,IDQ10160"
+    },
+    {
+        "name": "Townsville, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/townsville.shtml",
+        "ids": "IDQ10923"
+    },
+    {
+        "name": "Ayr, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/ayr.shtml",
+        "ids": "IDQ11295,IDQ10150"
+    },
+    {
+        "name": "Ingham, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/ingham.shtml",
+        "ids": "IDQ11295,IDQ10150"
+    },
+    {
+        "name": "Cairns, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/cairns.shtml",
+        "ids": "IDQ10902"
+    },
+    {
+        "name": "Atherton, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/atherton.shtml",
+        "ids": "IDQ11295,IDQ10140"
+    },
+    {
+        "name": "Cardwell, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/cardwell.shtml",
+        "ids": "IDQ11295,IDQ10140"
+    },
+    {
+        "name": "Cooktown, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/cooktown.shtml",
+        "ids": "IDQ11295,IDQ10140"
+    },
+    {
+        "name": "Innisfail, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/innisfail.shtml",
+        "ids": "IDQ11295,IDQ10140"
+    },
+    {
+        "name": "Mareeba, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/mareeba.shtml",
+        "ids": "IDQ11295,IDQ10140"
+    },
+    {
+        "name": "Port Douglas, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/port-douglas.shtml",
+        "ids": "IDQ11295,IDQ10140"
+    },
+    {
+        "name": "Charters Towers, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/charters-towers.shtml",
+        "ids": "IDQ10904"
+    },
+    {
+        "name": "Georgetown, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/georgetown.shtml",
+        "ids": "IDQ11295,IDQ10130"
+    },
+    {
+        "name": "Hughenden, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/hughenden.shtml",
+        "ids": "IDQ11295,IDQ10130"
+    },
+    {
+        "name": "Richmond, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/richmond.shtml",
+        "ids": "IDQ11295,IDQ10130"
+    },
+    {
+        "name": "Weipa, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/weipa.shtml",
+        "ids": "IDQ10925"
+    },
+    {
+        "name": "Aurukun, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/aurukun.shtml",
+        "ids": "IDQ11295,IDQ10110"
+    },
+    {
+        "name": "Coen, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/coen.shtml",
+        "ids": "IDQ11295,IDQ10110"
+    },
+    {
+        "name": "Laura, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/laura.shtml",
+        "ids": "IDQ11295,IDQ10110"
+    },
+    {
+        "name": "Lockhart River, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/lockhart-river.shtml",
+        "ids": "IDQ11295,IDQ10110"
+    },
+    {
+        "name": "Palmerville, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/palmerville.shtml",
+        "ids": "IDQ11295,IDQ10110"
+    },
+    {
+        "name": "Thursday Island, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/thursday-island.shtml",
+        "ids": "IDQ11295,IDQ10110"
+    },
+    {
+        "name": "Normanton, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/normanton.shtml",
+        "ids": "IDQ11295,IDQ10120"
+    },
+    {
+        "name": "Burketown, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/burketown.shtml",
+        "ids": "IDQ11295,IDQ10120"
+    },
+    {
+        "name": "Croydon, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/croydon.shtml",
+        "ids": "IDQ11295,IDQ10120"
+    },
+    {
+        "name": "Doomadgee, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/doomadgee.shtml",
+        "ids": "IDQ11295,IDQ10120"
+    },
+    {
+        "name": "Kowanyama, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/kowanyama.shtml",
+        "ids": "IDQ11295,IDQ10120"
+    },
+    {
+        "name": "Mornington Island, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/mornington-island.shtml",
+        "ids": "IDQ11295,IDQ10120"
+    },
+    {
+        "name": "Mount Isa, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/mount-isa.shtml",
+        "ids": "IDQ10916"
+    },
+    {
+        "name": "Camooweal, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/camooweal.shtml",
+        "ids": "IDQ11295,IDQ10190"
+    },
+    {
+        "name": "Julia Creek, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/julia-creek.shtml",
+        "ids": "IDQ11295,IDQ10190"
+    },
+    {
+        "name": "Urandangi, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/urandangi.shtml",
+        "ids": "IDQ11295,IDQ10190"
+    },
+    {
+        "name": "Cloncurry, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/cloncurry.shtml",
+        "ids": "IDQ11295,IDQ10190"
+    },
+    {
+        "name": "Longreach, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/longreach.shtml",
+        "ids": "IDQ10913"
+    },
+    {
+        "name": "Barcaldine, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/barcaldine.shtml",
+        "ids": "IDQ11295,IDQ10200"
+    },
+    {
+        "name": "Blackall, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/blackall.shtml",
+        "ids": "IDQ11295,IDQ10200"
+    },
+    {
+        "name": "Isisford, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/isisford.shtml",
+        "ids": "IDQ11295,IDQ10200"
+    },
+    {
+        "name": "Tambo, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/tambo.shtml",
+        "ids": "IDQ11295,IDQ10200"
+    },
+    {
+        "name": "Winton, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/winton.shtml",
+        "ids": "IDQ11295,IDQ10200"
+    },
+    {
+        "name": "Charleville, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/charleville.shtml",
+        "ids": "IDQ10903"
+    },
+    {
+        "name": "Roma, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/roma.shtml",
+        "ids": "IDQ10919"
+    },
+    {
+        "name": "St George, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/st-george.shtml",
+        "ids": "IDQ11295,IDQ10220"
+    },
+    {
+        "name": "Augathella, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/augathella.shtml",
+        "ids": "IDQ11295,IDQ10220"
+    },
+    {
+        "name": "Bollon, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/bollon.shtml",
+        "ids": "IDQ11295,IDQ10220"
+    },
+    {
+        "name": "Cunnamulla, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/cunnamulla.shtml",
+        "ids": "IDQ11295,IDQ10220"
+    },
+    {
+        "name": "Dirranbandi, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/dirranbandi.shtml",
+        "ids": "IDQ11295,IDQ10220"
+    },
+    {
+        "name": "Injune, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/injune.shtml",
+        "ids": "IDQ11295,IDQ10220"
+    },
+    {
+        "name": "Surat, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/surat.shtml",
+        "ids": "IDQ11295,IDQ10220"
+    },
+    {
+        "name": "Birdsville, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/birdsville.shtml",
+        "ids": "IDQ10900"
+    },
+    {
+        "name": "Bedourie, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/bedourie.shtml",
+        "ids": "IDQ11295,IDQ10210"
+    },
+    {
+        "name": "Boulia, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/boulia.shtml",
+        "ids": "IDQ11295,IDQ10210"
+    },
+    {
+        "name": "Quilpie, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/quilpie.shtml",
+        "ids": "IDQ11295,IDQ10210"
+    },
+    {
+        "name": "Thargomindah, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/thargomindah.shtml",
+        "ids": "IDQ11295,IDQ10210"
+    },
+    {
+        "name": "Windorah, QLD",
+        "link": "http://www.bom.gov.au/qld/forecasts/windorah.shtml",
+        "ids": "IDQ11295,IDQ10210"
+    },
+    {
+        "name": "Sydney, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/sydney.shtml",
+        "ids": "IDN10064"
+    },
+    {
+        "name": "Cronulla, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/cronulla.shtml",
+        "ids": "IDN11060,IDN10064"
+    },
+    {
+        "name": "Liverpool, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/liverpool.shtml",
+        "ids": "IDN11060,IDN10064"
+    },
+    {
+        "name": "Penrith, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/penrith.shtml",
+        "ids": "IDN10064"
+    },
+    {
+        "name": "Mona Vale, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/mona-vale.shtml",
+        "ids": "IDN11060,IDN10064"
+    },
+    {
+        "name": "Mascot, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/mascot.shtml",
+        "ids": "IDN11060,IDN10064"
+    },
+    {
+        "name": "Terrey Hills, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/terreyhills.shtml",
+        "ids": "IDN11060,IDN10064"
+    },
+    {
+        "name": "Richmond, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/richmond.shtml",
+        "ids": "IDN11060,IDN10064"
+    },
+    {
+        "name": "Parramatta, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/parramatta.shtml",
+        "ids": "IDN11060,IDN10064"
+    },
+    {
+        "name": "Blacktown, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/blacktown.shtml",
+        "ids": "IDN11060,IDN10064"
+    },
+    {
+        "name": "Camden, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/camden.shtml",
+        "ids": "IDN11060,IDN10064"
+    },
+    {
+        "name": "Campbelltown, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/campbelltown.shtml",
+        "ids": "IDN11060,IDN10064"
+    },
+    {
+        "name": "Canterbury, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/canterbury.shtml",
+        "ids": "IDN11060,IDN10064"
+    },
+    {
+        "name": "Bondi, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/bondi.shtml",
+        "ids": "IDN11060,IDN10064"
+    },
+    {
+        "name": "Hornsby, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/hornsby.shtml",
+        "ids": "IDN11060,IDN10064"
+    },
+    {
+        "name": "Sydney Olympic Park, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/sydney-olympic-park.shtml",
+        "ids": "IDN11060,IDN10064"
+    },
+    {
+        "name": "Belconnen, ACT",
+        "link": "http://www.bom.gov.au/act/forecasts/belconnen.shtml",
+        "ids": "IDN11060,IDN10035"
+    },
+    {
+        "name": "Gungahlin, ACT",
+        "link": "http://www.bom.gov.au/act/forecasts/gungahlin.shtml",
+        "ids": "IDN11060,IDN10035"
+    },
+    {
+        "name": "Woden Valley, ACT",
+        "link": "http://www.bom.gov.au/act/forecasts/woden-valley.shtml",
+        "ids": "IDN11060,IDN10035"
+    },
+    {
+        "name": "Canberra, ACT",
+        "link": "http://www.bom.gov.au/act/forecasts/canberra.shtml",
+        "ids": "IDN10035"
+    },
+    {
+        "name": "Tuggeranong, ACT",
+        "link": "http://www.bom.gov.au/act/forecasts/tuggeranong.shtml",
+        "ids": "IDN11060,IDN10035"
+    },
+    {
+        "name": "Mount Ginini, ACT",
+        "link": "http://www.bom.gov.au/act/forecasts/mountginini.shtml",
+        "ids": "IDN11060,IDN11039"
+    },
+    {
+        "name": "Byron Bay, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/byronbay.shtml",
+        "ids": "IDN11060,IDN11024"
+    },
+    {
+        "name": "Lismore, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/lismore.shtml",
+        "ids": "IDN11110"
+    },
+    {
+        "name": "Yamba, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/yamba.shtml",
+        "ids": "IDN11060,IDN11024"
+    },
+    {
+        "name": "Grafton, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/grafton.shtml",
+        "ids": "IDN11060,IDN11024"
+    },
+    {
+        "name": "Evans Head, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/evans-head.shtml",
+        "ids": "IDN11060,IDN11024"
+    },
+    {
+        "name": "Ballina, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/ballina.shtml",
+        "ids": "IDN11060,IDN11024"
+    },
+    {
+        "name": "Murwillumbah, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/murwillumbah.shtml",
+        "ids": "IDN11060,IDN11024"
+    },
+    {
+        "name": "Tweed Heads, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/tweedheads.shtml",
+        "ids": "IDN11121"
+    },
+    {
+        "name": "Gloucester, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/gloucester.shtml",
+        "ids": "IDN11060,IDN11025"
+    },
+    {
+        "name": "Coffs Harbour, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/coffsharbour.shtml",
+        "ids": "IDN11105"
+    },
+    {
+        "name": "Kempsey, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/kempsey.shtml",
+        "ids": "IDN11060,IDN11025"
+    },
+    {
+        "name": "Port Macquarie, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/portmacquarie.shtml",
+        "ids": "IDN11112"
+    },
+    {
+        "name": "Taree, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/taree.shtml",
+        "ids": "IDN11117"
+    },
+    {
+        "name": "Forster, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/forster.shtml",
+        "ids": "IDN11060,IDN11025"
+    },
+    {
+        "name": "Bulahdelah, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/bulahdelah.shtml",
+        "ids": "IDN11060,IDN11025"
+    },
+    {
+        "name": "Barrington Tops, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/barrington-tops.shtml",
+        "ids": "IDN11060,IDN11025"
+    },
+    {
+        "name": "Dorrigo, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/dorrigo.shtml",
+        "ids": "IDN11060,IDN11025"
+    },
+    {
+        "name": "Nambucca Heads, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/nambucca-heads.shtml",
+        "ids": "IDN11060,IDN11025"
+    },
+    {
+        "name": "Wauchope, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/wauchope.shtml",
+        "ids": "IDN11060,IDN11025"
+    },
+    {
+        "name": "South West Rocks, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/south-west-rocks.shtml",
+        "ids": "IDN11060,IDN11025"
+    },
+    {
+        "name": "Newcastle, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/newcastle.shtml",
+        "ids": "IDN11051"
+    },
+    {
+        "name": "Maitland, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/maitland.shtml",
+        "ids": "IDN11060,IDN11026"
+    },
+    {
+        "name": "Singleton, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/singleton.shtml",
+        "ids": "IDN11060,IDN11026"
+    },
+    {
+        "name": "Wyong, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/wyong.shtml",
+        "ids": "IDN11060,IDN11052"
+    },
+    {
+        "name": "Cessnock, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/cessnock.shtml",
+        "ids": "IDN11060,IDN11026"
+    },
+    {
+        "name": "Gosford, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/gosford.shtml",
+        "ids": "IDN11052"
+    },
+    {
+        "name": "Woy Woy, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/woy-woy.shtml",
+        "ids": "IDN11060,IDN11052"
+    },
+    {
+        "name": "Scone, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/scone.shtml",
+        "ids": "IDN11060,IDN11026"
+    },
+    {
+        "name": "Nelson Bay, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/nelson-bay.shtml",
+        "ids": "IDN11060,IDN11026"
+    },
+    {
+        "name": "Toronto, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/toronto.shtml",
+        "ids": "IDN11060,IDN11051"
+    },
+    {
+        "name": "Wallsend, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/wallsend.shtml",
+        "ids": "IDN11060,IDN11051"
+    },
+    {
+        "name": "The Entrance, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/entrance.shtml",
+        "ids": "IDN11060,IDN11052"
+    },
+    {
+        "name": "Raymond Terrace, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/raymond-terrace.shtml",
+        "ids": "IDN11060,IDN11026"
+    },
+    {
+        "name": "Muswellbrook, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/muswellbrook.shtml",
+        "ids": "IDN11060,IDN11026"
+    },
+    {
+        "name": "Walcha, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/walcha.shtml",
+        "ids": "IDN11060,IDN11029"
+    },
+    {
+        "name": "Armidale, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/armidale.shtml",
+        "ids": "IDN11101"
+    },
+    {
+        "name": "Inverell, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/inverell.shtml",
+        "ids": "IDN11060,IDN11029"
+    },
+    {
+        "name": "Glen Innes, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/gleninnes.shtml",
+        "ids": "IDN11060,IDN11029"
+    },
+    {
+        "name": "Tenterfield, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/tenterfield.shtml",
+        "ids": "IDN11060,IDN11029"
+    },
+    {
+        "name": "Guyra, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/guyra.shtml",
+        "ids": "IDN11060,IDN11029"
+    },
+    {
+        "name": "Bulli, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/bulli.shtml",
+        "ids": "IDN11060,IDN11053"
+    },
+    {
+        "name": "Port Kembla, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/port-kembla.shtml",
+        "ids": "IDN11060,IDN11053"
+    },
+    {
+        "name": "Bowral, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/bowral.shtml",
+        "ids": "IDN11116"
+    },
+    {
+        "name": "Nowra, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/nowra.shtml",
+        "ids": "IDN11060,IDN11027"
+    },
+    {
+        "name": "Huskisson, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/huskisson.shtml",
+        "ids": "IDN11060,IDN11027"
+    },
+    {
+        "name": "Albion Park, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/albionpark.shtml",
+        "ids": "IDN11060,IDN11053"
+    },
+    {
+        "name": "Wollongong, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/wollongong.shtml",
+        "ids": "IDN11053"
+    },
+    {
+        "name": "Kiama, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/kiama.shtml",
+        "ids": "IDN11060,IDN11027"
+    },
+    {
+        "name": "Batemans Bay, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/batemansbay.shtml",
+        "ids": "IDN11102"
+    },
+    {
+        "name": "Narooma, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/narooma.shtml",
+        "ids": "IDN11060,IDN11028"
+    },
+    {
+        "name": "Bega, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/bega.shtml",
+        "ids": "IDN11118"
+    },
+    {
+        "name": "Merimbula, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/merimbula.shtml",
+        "ids": "IDN11060,IDN11028"
+    },
+    {
+        "name": "Monolith Valley, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/monolith-valley.shtml",
+        "ids": "IDN11060,IDN11028"
+    },
+    {
+        "name": "Ulladulla, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/ulladulla.shtml",
+        "ids": "IDN11060,IDN11028"
+    },
+    {
+        "name": "Eden, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/eden.shtml",
+        "ids": "IDN11060,IDN11028"
+    },
+    {
+        "name": "Bermagui, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/bermagui.shtml",
+        "ids": "IDN11060,IDN11028"
+    },
+    {
+        "name": "Orange, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/orange.shtml",
+        "ids": "IDN11111"
+    },
+    {
+        "name": "Mudgee, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/mudgee.shtml",
+        "ids": "IDN11060,IDN11030"
+    },
+    {
+        "name": "Bathurst, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/bathurst.shtml",
+        "ids": "IDN11060,IDN11030"
+    },
+    {
+        "name": "Lithgow, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/lithgow.shtml",
+        "ids": "IDN11060,IDN11030"
+    },
+    {
+        "name": "Katoomba, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/katoomba.shtml",
+        "ids": "IDN11109"
+    },
+    {
+        "name": "Springwood, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/springwood.shtml",
+        "ids": "IDN11060,IDN11030"
+    },
+    {
+        "name": "Wellington, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/wellington.shtml",
+        "ids": "IDN11060,IDN11030"
+    },
+    {
+        "name": "Jenolan Caves, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/jenolan-caves.shtml",
+        "ids": "IDN11060,IDN11030"
+    },
+    {
+        "name": "Oberon, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/oberon.shtml",
+        "ids": "IDN11060,IDN11030"
+    },
+    {
+        "name": "Goulburn, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/goulburn.shtml",
+        "ids": "IDN11107"
+    },
+    {
+        "name": "Braidwood, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/braidwood.shtml",
+        "ids": "IDN11060,IDN11031"
+    },
+    {
+        "name": "Yass, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/yass.shtml",
+        "ids": "IDN11060,IDN11031"
+    },
+    {
+        "name": "Crookwell, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/crookwell.shtml",
+        "ids": "IDN11060,IDN11031"
+    },
+    {
+        "name": "Queanbeyan, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/queanbeyan.shtml",
+        "ids": "IDN11060,IDN11031"
+    },
+    {
+        "name": "Tamworth, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/tamworth.shtml",
+        "ids": "IDN11113"
+    },
+    {
+        "name": "Moree, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/moree.shtml",
+        "ids": "IDN11060,IDN11033"
+    },
+    {
+        "name": "Narrabri, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/narrabri.shtml",
+        "ids": "IDN11060,IDN11033"
+    },
+    {
+        "name": "Gunnedah, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/gunnedah.shtml",
+        "ids": "IDN11060,IDN11033"
+    },
+    {
+        "name": "Barraba, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/barraba.shtml",
+        "ids": "IDN11060,IDN11033"
+    },
+    {
+        "name": "Walgett, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/walgett.shtml",
+        "ids": "IDN11060,IDN11033"
+    },
+    {
+        "name": "Warialda, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/warialda.shtml",
+        "ids": "IDN11060,IDN11033"
+    },
+    {
+        "name": "Wee Waa, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/wee-waa.shtml",
+        "ids": "IDN11060,IDN11033"
+    },
+    {
+        "name": "Quirindi, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/quirindi.shtml",
+        "ids": "IDN11060,IDN11033"
+    },
+    {
+        "name": "Dubbo, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/dubbo.shtml",
+        "ids": "IDN11106"
+    },
+    {
+        "name": "Coonabarabran, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/coonabarabran.shtml",
+        "ids": "IDN11060,IDN11034"
+    },
+    {
+        "name": "Parkes, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/parkes.shtml",
+        "ids": "IDN11060,IDN11034"
+    },
+    {
+        "name": "West Wyalong, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/west-wyalong.shtml",
+        "ids": "IDN11060,IDN11034"
+    },
+    {
+        "name": "Coonamble, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/coonamble.shtml",
+        "ids": "IDN11060,IDN11034"
+    },
+    {
+        "name": "Condobolin, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/condobolin.shtml",
+        "ids": "IDN11060,IDN11034"
+    },
+    {
+        "name": "Forbes, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/forbes.shtml",
+        "ids": "IDN11060,IDN11034"
+    },
+    {
+        "name": "Cowra, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/cowra.shtml",
+        "ids": "IDN11060,IDN11034"
+    },
+    {
+        "name": "Lake Cargelligo, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/lake-cargelligo.shtml",
+        "ids": "IDN11060,IDN11034"
+    },
+    {
+        "name": "Nyngan, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/nyngan.shtml",
+        "ids": "IDN11060,IDN11034"
+    },
+    {
+        "name": "Temora, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/temora.shtml",
+        "ids": "IDN11060,IDN11034"
+    },
+    {
+        "name": "Narromine, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/narromine.shtml",
+        "ids": "IDN11060,IDN11034"
+    },
+    {
+        "name": "Gundagai, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/gundagai.shtml",
+        "ids": "IDN11060,IDN11035"
+    },
+    {
+        "name": "Young, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/young.shtml",
+        "ids": "IDN11060,IDN11035"
+    },
+    {
+        "name": "Tumbarumba, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/tumbarumba.shtml",
+        "ids": "IDN11060,IDN11035"
+    },
+    {
+        "name": "Cootamundra, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/cootamundra.shtml",
+        "ids": "IDN11060,IDN11035"
+    },
+    {
+        "name": "Tumut, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/tumut.shtml",
+        "ids": "IDN11060,IDN11035"
+    },
+    {
+        "name": "Wagga Wagga, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/waggawagga.shtml",
+        "ids": "IDN11114"
+    },
+    {
+        "name": "Albury, NSW",
+        "link": "http://www.bom.gov.au/vic/forecasts/wodonga.shtml",
+        "ids": "IDV10703"
+    },
+    {
+        "name": "Hay, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/hay.shtml",
+        "ids": "IDN11060,IDN11036"
+    },
+    {
+        "name": "Deniliquin, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/deniliquin.shtml",
+        "ids": "IDN11060,IDN11036"
+    },
+    {
+        "name": "Griffith, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/griffith.shtml",
+        "ids": "IDN11108"
+    },
+    {
+        "name": "Corowa, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/corowa.shtml",
+        "ids": "IDN11060,IDN11036"
+    },
+    {
+        "name": "Finley, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/finley.shtml",
+        "ids": "IDN11060,IDN11036"
+    },
+    {
+        "name": "Junee, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/junee.shtml",
+        "ids": "IDN11060,IDN11036"
+    },
+    {
+        "name": "Narrandera, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/narrandera.shtml",
+        "ids": "IDN11060,IDN11036"
+    },
+    {
+        "name": "Ivanhoe, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/ivanhoe.shtml",
+        "ids": "IDN11060,IDN11038"
+    },
+    {
+        "name": "Broken Hill, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/brokenhill.shtml",
+        "ids": "IDN11103"
+    },
+    {
+        "name": "Wentworth, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/wentworth.shtml",
+        "ids": "IDN11060,IDN11038"
+    },
+    {
+        "name": "Balranald, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/balranald.shtml",
+        "ids": "IDN11060,IDN11038"
+    },
+    {
+        "name": "Lake Mungo, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/lake-mungo.shtml",
+        "ids": "IDN11060,IDN11038"
+    },
+    {
+        "name": "Menindee, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/menindee.shtml",
+        "ids": "IDN11060,IDN11038"
+    },
+    {
+        "name": "Bourke, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/bourke.shtml",
+        "ids": "IDN11060,IDN11037"
+    },
+    {
+        "name": "Tibooburra, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/tibooburra.shtml",
+        "ids": "IDN11060,IDN11037"
+    },
+    {
+        "name": "Cobar, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/cobar.shtml",
+        "ids": "IDN11104"
+    },
+    {
+        "name": "Brewarrina, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/brewarrina.shtml",
+        "ids": "IDN11060,IDN11037"
+    },
+    {
+        "name": "Wilcannia, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/wilcannia.shtml",
+        "ids": "IDN11060,IDN11037"
+    },
+    {
+        "name": "Perisher Valley, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/perisher.shtml",
+        "ids": "IDN11055"
+    },
+    {
+        "name": "Selwyn, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/selwyn.shtml",
+        "ids": "IDN11060,IDN11032"
+    },
+    {
+        "name": "Cooma, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/cooma.shtml",
+        "ids": "IDN11119"
+    },
+    {
+        "name": "Cabramurra, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/cabramurra.shtml",
+        "ids": "IDN11060,IDN11032"
+    },
+    {
+        "name": "Bombala, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/bombala.shtml",
+        "ids": "IDN11060,IDN11032"
+    },
+    {
+        "name": "Charlotte Pass, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/charlotte-pass.shtml",
+        "ids": "IDN11060,IDN11055"
+    },
+    {
+        "name": "Thredbo Top Station, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/thredbo.shtml",
+        "ids": "IDN11055"
+    },
+    {
+        "name": "Jindabyne, NSW",
+        "link": "http://www.bom.gov.au/nsw/forecasts/jindabyne.shtml",
+        "ids": "IDN11060,IDN11032"
+    }
+]

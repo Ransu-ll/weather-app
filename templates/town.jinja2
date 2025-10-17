@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ weather.town }} - Weather</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div class="weather-container">
+    <div class="main-card">
+        <div class="top">
+            <h2>{{ weather.town }}</h2>
+            <p>{{ weather.date }}</p>
+        </div>
+
+        <div class="center">
+            <img class="main-icon" src="{{ url_for('static', filename='icons/' + weather.icon) }}" alt="{{ weather.condition }}">
+            <div class="temp">{{ weather.current_temp }}°</div>
+            <div class="condition">{{ weather.condition }}</div>
+            <div class="metrics">
+                <span>💨 {{ weather.wind_speed }} km/h</span>
+                <span>💧 {{ weather.humidity }}%</span>
+            </div>
+        </div>
+
+        <div class="forecast">
+            {% for day in weather.forecast %}
+            <div class="day">
+                <p>{{ day.day }}</p>
+                <img src="{{ url_for('static', filename='icons/' + day.icon) }}" alt="{{ day.condition }}">
+                <p>{{ day.temp }}°</p>
+                <small>{{ day.condition }}</small>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <div class="sidebar">
+        <h3>Good {{ weather.greeting }}</h3>
+        <p class="time">{{ weather.time }}</p>
+        <div class="mini-card">
+            <img src="{{ url_for('static', filename='icons/' + weather.icon) }}" alt="{{ weather.condition }}">
+            <p>{{ weather.current_temp }}° | {{ weather.condition }}</p>
+        </div>
+        <h4>Hourly Forecast</h4>
+        <div class="hourly">
+            {% for hour in weather.hourly %}
+            <div class="hour">
+                <img src="{{ url_for('static', filename='icons/' + hour.icon) }}" alt="{{ hour.condition }}">
+                <p>{{ hour.time }}</p>
+                <p>{{ hour.temp }}°</p>
+                <p>{{ hour.condition }}</p>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Aussie's Weather Webapp</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body class="home">
+    <div class="search-wrapper">
+        <div class="search-card">
+            <h1>🌤️ Aussie's Weather Webapp</h1>
+            <p class="tagline">Find accurate weather forecasts across Australia</p>
+
+            <form action="/weather" method="get" class="search-form">
+                <label for="town">Which town would you like to find information on?</label>
+                <div class="input-group">
+                    <!-- ✅ Input linked to datalist for autocomplete -->
+                    <input type="text" id="town" name="town" placeholder="e.g., Melbourne" required list="towns">
+                    <datalist id="towns"></datalist>
+
+                    <button type="submit">Go</button>
+                </div>
+            </form>
+
+            <p class="note">Enter a town or city name to view detailed current and forecast data.</p>
+        </div>
+    </div>
+
+    <!-- ✅ JS for dynamic autocomplete from Flask -->
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const datalist = document.getElementById("towns");
+
+        fetch("/api/towns")
+            .then(response => response.json())
+            .then(data => {
+                datalist.innerHTML = "";
+                data.forEach(town => {
+                    const option = document.createElement("option");
+                    option.value = town;
+                    datalist.appendChild(option);
+                });
+            })
+            .catch(err => {
+                console.error("⚠️ Error loading town list:", err);
+            });
+    });
+    </script>
+</body>
+</html>

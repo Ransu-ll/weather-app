@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Town Not Found - AW2</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='pure.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="app-wrapper">
+        <h1 class="centre">Aussie's Weather Webapp</h1>
+        <h2 class="centre">Sorry, we couldn't find weather data for "{{ town_name }}".</h2>
+
+        <form id="search-form" class="search-form centre">
+            <label for="townsearch">
+                <p>
+                    Maybe try looking for another town?
+                    <br>
+                    <input id="townsearch" list="towns" placeholder="e.g., Melbourne" required>
+                    <button type="submit">Go</button>
+                </p>
+            </label>
+            <datalist id="towns">
+                {% for town in towns %}
+                    <option value="{{ town|e }}"></option>
+                {% endfor %}
+            </datalist>
+        </form>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

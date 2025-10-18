@@ -8,16 +8,11 @@ app = Flask(__name__)
 
 location_this_file = Path(__file__).parent.resolve()
 
-towns = location_this_file / "static/towns.txt"
+towns_file = location_this_file / "static/towns.txt"
 
-with open(towns, "r") as f:
+with open(towns_file, "r") as f:
     towns = f.read()
 
-
-towns_info = {}
-
-for town in towns.split("\n"):
-    towns_info[town] = town.lower().replace(", ", "-").replace(" ", "-")
 
 def sanitise_str(to_sanitise):
     return to_sanitise.translate(str.maketrans({
@@ -30,6 +25,11 @@ def sanitise_str(to_sanitise):
     ".":  r"\."
 }))
 
+towns_info = {}
+
+for town in towns.split("\n"):
+    towns_info[town] = sanitise_str(town.lower().replace(", ", "-").replace(" ", "-"))
+
 @app.route("/")
 def index():
     logger.info("Connected to index")
@@ -41,7 +41,7 @@ def index():
 @app.route("/town/<town_url>")
 def town_info(town_url):
     town_url = sanitise_str(town_url)
-    if town_url not in town_info.keys():
+    if town_url not in towns_info.values():
         logger.warning(f"Could not find {town_url}")
         return render_template("notfound.jinja2", towns=list(towns_info.keys()))
     logger.info(f"Connected to {town_url}")

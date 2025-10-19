@@ -33,9 +33,18 @@
     {% for key_date in town_data.keys() %}
         <div class="centre">
             <h3>{{ key_date }}</h3>
-            {% for key_info in town_data[key_date].keys() %}
-                <p>{{ key_info }}: {{town_data[key_date][key_info]}}</p>
-            {% endfor %}
+
+            <p><strong>{{ town_data[key_date]["precis"] }}</strong></p>
+            {% if 'air_temperature_minimum' in town_data[key_date].keys() %}
+                <p>Minimum: {{ town_data[key_date]["air_temperature_minimum"] }} °C</p>
+            {% endif %}
+            {% if 'air_temperature_maximum' in town_data[key_date].keys() %}
+                <p>Maximum: {{ town_data[key_date]["air_temperature_maximum"] }} °C</p>
+            {% endif %}
+            <p>Chance of rain: {{ town_data[key_date]["probability_of_precipitation"] }}</p>
+            {% if 'precipitation_range' in town_data[key_date].keys() %}
+                <p>Potential rainfall: {{ town_data[key_date]["precipitation_range"] }}</p>
+            {% endif %}
         </div>
     {% endfor %}
 </body>

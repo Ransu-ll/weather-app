@@ -8,6 +8,7 @@ import time
 from typing import Union
 
 logger = logging.getLogger(__name__)
+logging.basicConfig(level=logging.INFO)
 
 def get_town_files(location: str) -> Union[str, None]:
     """Gets town information based on the specified location"""
@@ -46,7 +47,7 @@ def download_file_from_bom(location: Path, name: Path) -> int:
         return 1
     
 
-def download_town_files(files: str):
+def download_town_files(files: str) -> list[str]:
     """Downloads specified files from the BOM from a list of IDs"""
     individual_files = files.split(",")
 
@@ -55,6 +56,8 @@ def download_town_files(files: str):
 
     if file_path.exists() is False:
         os.makedirs(file_path)
+
+    results = []
 
     for file in individual_files:
         file_name = Path(file + ".xml")
@@ -65,7 +68,7 @@ def download_town_files(files: str):
         if full_filepath.exists() is False:
             logger.info(f"Downloading file {file}.xml due to it not existing yet.")
             download_file_from_bom(file_path, file_name)
-            pass
+            results.append(full_filepath)
 
         else:
             last_modified = os.path.getmtime(full_filepath)
@@ -74,11 +77,18 @@ def download_town_files(files: str):
             threshold = 1*60*10 # 10 minutes
 
             if diff > threshold:
-                pass
+                logger.info(f"Downloading file {file}.xml due to it existing but being too old.")
                 download_file_from_bom(file_path, file_name)
+                results.append(full_filepath)
+            else:
+                logger.info(f"Not updating the file {file} due to it being too new.")
+                results.append(full_filepath)
+    
+    return results
 
 # Example usecase: 
 if __name__ == "__main__":
     location = "Penguin, TAS"
-    files = get_town_files("Penguin, TAS")
-    download_town_files(files)
+    town_files = get_town_files("Penguin, TAS")
+    town_files_locations = download_town_files(town_files)
+    breakpoint()

@@ -4,6 +4,8 @@ import logging
 import os
 from ftplib import FTP
 import time
+import xml.etree.ElementTree as ET
+from datetime import datetime
 
 from typing import Union
 
@@ -86,9 +88,59 @@ def download_town_files(files: str) -> list[str]:
     
     return results
 
+def parse_file_for_location(file_location: Path, town: str) -> dict:
+    """Parses a single file, looking for information on a specific town"""
+
+    with open(file_location, "r") as f:
+        tree = ET.parse(f)
+
+    root_main = tree.getroot()[1] # 0th element is amoc
+
+    result = root_main.findall(f".area[@description='{town}'][@type='location']")
+    if not result:
+        logger.warning(f"File {str(file_location)[-12:]} could not find results for {town}, skipping")
+        return None
+
+    if len(result[0]) < 7: # data can be sometimes seven or 8
+        logger.warning(f"File {str(file_location)[-12:]} does not have all the required information, skipping")
+        return None
+
+
+    d1 = {}
+    d0 = {}
+
+    for forecast in result[0]:
+        # Within each element, extract the information type, as well as the information
+        # Stored in its own dictionary
+        for element in forecast:
+            d0[element.attrib['type']] = element.text
+
+        _date = datetime.fromisoformat(forecast.attrib["start-time-local"]).strftime(r"%Y-%m-%d")
+
+        d1[_date] = d0
+        d0 = {}
+    
+    return d1
+
+def get_town_info(files_locations: list[Path], town: str) -> dict:
+    """Get the forecast information given a specific list of files """
+    
+    town_query = town.split(", ")[0]
+
+    # If the results aren't in one file, they are in another file.
+    for file in files_locations:
+        result = parse_file_for_location(str(file), town_query)
+        if result is None:
+            continue
+        return result
+    
+    logger.error(f"Could not find information about {town} in files: \n{"\n".join(files_locations)}")
+
 # Example usecase: 
-if __name__ == "__main__":
-    location = "Penguin, TAS"
-    town_files = get_town_files("Penguin, TAS")
-    town_files_locations = download_town_files(town_files)
-    breakpoint()
+# if __name__ == "__main__":
+#     location = "Melbourne, VIC"
+#     town_files = get_town_files(location)
+#     town_files_locations = download_town_files(town_files)
+#     from pprint import pprint
+#     pprint(get_town_info(town_files_locations, location))
+    

@@ -11,18 +11,23 @@
 </head>
 <body>
     <h1 class="centre">Aussie's Weather Webapp</h1>
-    <h2 class="centre">Aw man, could not find that page!</h2>
-    <label for="townsearch">
-        <p class="centre">
-            Maybe try looking for a town instead?
-            <br>
-            <input id="townsearch" list="towns">
-        </p>
-    </label>
-    <datalist id="towns">
-        {% for town in towns %}
+    <h2 class="centre">Could not find that page.</h2>
+
+    <form action="/town_info_get" method="get">
+        <label for="townsearch">
+            <p class="centre">
+                Maybe try searching for a town?
+                <br>
+                <input id="townsearch" list="towns" name="town">
+                <button type="submit">Go</button>
+            </p>
+        </label>
+        <datalist id="towns">
+        {% for town in towns.keys() %}
             <option value="{{ town|e }}"></option>
         {% endfor %}
-    </datalist>
+        </datalist>
+    </form>
+
 </body>
 </html>

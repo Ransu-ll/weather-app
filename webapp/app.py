@@ -1,6 +1,9 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, request
 import logging
 from pathlib import Path
+from bidict import bidict
+
+from LocationInfoDownloader import retreive_town_info
 
 logger = logging.getLogger(__name__)
 
@@ -25,7 +28,7 @@ def sanitise_str(to_sanitise):
     ".":  r"\."
 }))
 
-towns_info = {}
+towns_info = bidict({})
 
 for town in towns.split("\n"):
     towns_info[town] = sanitise_str(town.lower().replace(", ", "-").replace(" ", "-"))
@@ -56,12 +59,29 @@ def town_info(town_url):
         return render_template("notfound.jinja2", towns=list(towns_info.keys()))
     logger.info(f"Connected to {town_url}")
 
+    current_town = towns_info.inverse[town_url]
     # Town data should get the latest forecast of the town data
+    town_data = retreive_town_info(current_town)
+    logger.info(town_data)
 
-    town_data = None
+    return render_template("town.jinja2", towns=list(towns_info.keys()), town_data=town_data, town_name=current_town)
 
-    return render_template("town.jinja2", towns=list(towns_info.keys()), town_data=town_data)
+@app.route("/town_info_get", methods=["GET"])
+def town_info_get():
+    current_town = request.args["town"]
+    current_town = sanitise_str(current_town)
+    logger.info(current_town)
+
+    if current_town not in towns_info.keys():
+        logger.warning(f"Could not find {current_town}")
+        return render_template("notfound.jinja2", towns=towns_info)
+    logger.info(f"Requested for {current_town}")
+
+    # Town data should get the latest forecast of the town data
+    town_data = retreive_town_info(current_town)
+    
+    return render_template("town.jinja2", towns=towns_info, town_data=town_data, town_name=current_town)
 
 @app.errorhandler(404)
 def page_not_found(e):
-    return render_template("notfound.jinja2", towns=list(towns_info.keys()))
+    return render_template("notfound.jinja2", towns=towns_info)

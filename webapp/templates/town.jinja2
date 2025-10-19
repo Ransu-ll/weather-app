@@ -1,2 +1,42 @@
-{# TODO: fill out #}
-<h1>WORK IN PROGRESS</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The main webpage of this webapp">
+    <meta name="keywords" content="weather, australia, webapp">
+    <title>AW2</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='pure.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1 class="centre">Aussie's Weather Webapp</h1>
+
+    <form action="/town_info_get" method="get">
+        <label for="townsearch">
+            <p class="centre">
+                Which town would you like to find information on?
+                <br>
+                <input id="townsearch" list="towns" name="town">
+                <button type="submit">Go</button>
+            </p>
+        </label>
+        <datalist id="towns">
+        {% for town in towns.keys() %}
+            <option value="{{ town|e }}"></option>
+        {% endfor %}
+        </datalist>
+    </form>
+
+    <h2 class="centre">{{ town_name }} forecast</h2>
+
+    {% for key_date in town_data.keys() %}
+        <div class="centre">
+            <h3>{{ key_date }}</h3>
+            {% for key_info in town_data[key_date].keys() %}
+                <p>{{ key_info }}: {{town_data[key_date][key_info]}}</p>
+            {% endfor %}
+        </div>
+    {% endfor %}
+</body>
+</html>

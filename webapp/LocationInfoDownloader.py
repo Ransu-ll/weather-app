@@ -113,7 +113,12 @@ def parse_file_for_location(file_location: Path, town: str) -> dict:
         # Within each element, extract the information type, as well as the information
         # Stored in its own dictionary
         for element in forecast:
-            d0[element.attrib['type']] = element.text
+            if element.attrib['type'] == "forecast_icon_code":
+                # add the extension for the image
+                d0[element.attrib['type']] = element.text + ".png"
+            else:
+                d0[element.attrib['type']] = element.text
+            
 
         _date = datetime.fromisoformat(forecast.attrib["start-time-local"]).strftime(r"%Y-%m-%d")
 

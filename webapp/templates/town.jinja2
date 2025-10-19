@@ -33,8 +33,11 @@
     {% for key_date in town_data.keys() %}
         <div class="centre">
             <h3>{{ key_date }}</h3>
-
-            <p><strong>{{ town_data[key_date]["precis"] }}</strong></p>
+                <div class="centre-text-with-image">
+                    <img src="{{ url_for('static', filename='' + town_data[key_date]['forecast_icon_code'])  }}" class="weather-icon">
+                    <strong>{{ town_data[key_date]["precis"] }}</strong>
+                </div>
+            </p>
             {% if 'air_temperature_minimum' in town_data[key_date].keys() %}
                 <p>Minimum: {{ town_data[key_date]["air_temperature_minimum"] }} °C</p>
             {% endif %}

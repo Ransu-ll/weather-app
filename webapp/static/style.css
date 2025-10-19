@@ -5,3 +5,13 @@
 .centre {
     text-align: center;
 }
+
+.centre-text-with-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.weather-icon {
+    margin-right: 5px;
+}

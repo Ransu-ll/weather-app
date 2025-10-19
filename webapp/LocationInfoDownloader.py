@@ -122,7 +122,7 @@ def parse_file_for_location(file_location: Path, town: str) -> dict:
     
     return d1
 
-def get_town_info(files_locations: list[Path], town: str) -> dict:
+def get_town_info(files_locations: list[Path], town: str) -> Union[dict, None]:
     """Get the forecast information given a specific list of files """
     
     town_query = town.split(", ")[0]
@@ -135,6 +135,11 @@ def get_town_info(files_locations: list[Path], town: str) -> dict:
         return result
     
     logger.error(f"Could not find information about {town} in files: \n{"\n".join(files_locations)}")
+
+def retreive_town_info(location: str):
+    town_files = get_town_files(location)
+    town_files_file_locations = download_town_files(town_files)
+    return get_town_info(town_files_file_locations, location)
 
 # Example usecase: 
 # if __name__ == "__main__":

@@ -1,6 +1,5 @@
 import xml.etree.ElementTree as ET
 from pathlib import Path
-from fuzzysearch import find_near_matches
 
 from datetime import datetime
 import logging

@@ -37,7 +37,7 @@ for file in files:
         logger.warning(f"File {file[-12:]} could not find results for {query}, skipping")
         continue
     if len(result[0]) != 8:
-        logger.warning(f"File {file[-12:]} does not have all the required information, skipping")
+        logger.warning(f"Filer  {file[-12:]} does not have all the required information, skipping")
         continue
 
     d1 = {}

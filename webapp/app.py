@@ -56,7 +56,7 @@ def town_info(town_url):
     town_url = sanitise_str(town_url)
     if town_url not in towns_info.values():
         logger.warning(f"Could not find {town_url}")
-        return render_template("notfound.jinja2", towns=list(towns_info.keys()))
+        return render_template("notfound.jinja2", towns=towns_info)
     logger.info(f"Connected to {town_url}")
 
     current_town = towns_info.inverse[town_url]
@@ -64,7 +64,7 @@ def town_info(town_url):
     town_data = retreive_town_info(current_town)
     logger.info(town_data)
 
-    return render_template("town.jinja2", towns=list(towns_info.keys()), town_data=town_data, town_name=current_town)
+    return render_template("town.jinja2", towns=towns_info, town_data=town_data, town_name=current_town)
 
 @app.route("/town_info_get", methods=["GET"])
 def town_info_get():
@@ -79,7 +79,7 @@ def town_info_get():
 
     # Town data should get the latest forecast of the town data
     town_data = retreive_town_info(current_town)
-    
+
     return render_template("town.jinja2", towns=towns_info, town_data=town_data, town_name=current_town)
 
 @app.errorhandler(404)

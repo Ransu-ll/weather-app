@@ -14,7 +14,7 @@ phases:
       - pytest -q
       - echo "Packaging for deployment..."
       - mkdir -p bundle
-      - cp -r appspec.yml scripts wsgi_dev.py webapp bundle/
+      - cp -r appspec.yml scripts webapp/wsgi_dev.py webapp bundle/
 artifacts:
   files:
     - bundle/**/*

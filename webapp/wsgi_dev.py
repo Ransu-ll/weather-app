@@ -1,5 +1,5 @@
 from waitress import serve
-from webapp.app import app
+from app import app
 import logging, os
 
 logging.basicConfig(level=logging.INFO)

@@ -1,12 +1,11 @@
 from waitress import serve
 from webapp.app import app
-import logging
-import os
+import logging, os
 
-# Specify the logging level for app.py
-logging.basicConfig(level=app.logging.INFO)
+logging.basicConfig(level=logging.INFO)
 
 HOST = os.getenv("HOST", "0.0.0.0")
-PORT = int(os.getenv("PORT", 8000))
+PORT = int(os.getenv("PORT", "8000"))
 
-serve(app.app, host=HOST, port=PORT)
+if __name__ == "__main__":
+    serve(app, host=HOST, port=PORT)

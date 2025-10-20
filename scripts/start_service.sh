@@ -1,10 +1,22 @@
 #!/usr/bin/env bash
 set -e
-cd /srv/weatherapp
-source venv/bin/activate
 
-# stop any existing process
-pkill -f wsgi_dev.py || true
+echo "---- [ApplicationStart] Starting service ----"
 
-# start new process in background
-nohup python webapp/wsgi_dev.py > /var/log/weatherapp.log 2>&1 &
+# Start weatherapp service
+systemctl enable weatherapp
+systemctl start weatherapp
+
+# Wait and verify service
+sleep 3
+
+echo "Checking service status..."
+if systemctl is-active --quiet weatherapp; then
+    echo "✓ weatherapp service started successfully"
+else
+    echo "✗ weatherapp service failed to start"
+    journalctl -u weatherapp --no-pager -n 20
+    exit 1
+fi
+
+echo "Service started successfully"

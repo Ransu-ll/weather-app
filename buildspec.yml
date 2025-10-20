@@ -1,17 +1,20 @@
 version: 0.2
+
 phases:
   install:
     runtime-versions:
       python: 3.9
     commands:
+      - pip install --upgrade pip
       - pip install -r webapp/requirements.txt
+      - pip install pytest
   build:
     commands:
       - echo "Running unit tests..."
       - pytest -q
       - echo "Packaging for deployment..."
       - mkdir -p bundle
-      - cp -r appspec.yml scripts wsgi.py webapp bundle/
+      - cp -r appspec.yml scripts wsgi_dev.py webapp bundle/
 artifacts:
   files:
     - bundle/**/*

@@ -1,0 +1,18 @@
+version: 0.2
+phases:
+  install:
+    runtime-versions:
+      python: 3.9
+    commands:
+      - pip install -r webapp/requirements.txt
+  build:
+    commands:
+      - echo "Running unit tests..."
+      - pytest -q
+      - echo "Packaging for deployment..."
+      - mkdir -p bundle
+      - cp -r appspec.yml scripts wsgi.py webapp bundle/
+artifacts:
+  files:
+    - bundle/**/*
+  discard-paths: no

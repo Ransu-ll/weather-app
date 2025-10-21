@@ -4,6 +4,7 @@ on:
       workflows: ["Build and deploy Python app to Azure Web App - aw2-test"]
       types: [completed]
       branches: [app-dev]
+  workflow_dispatch:
 
 jobs:
   merge:

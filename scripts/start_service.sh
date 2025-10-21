@@ -9,8 +9,8 @@ After=network.target
 [Service]
 Type=simple
 User=ec2-user
-ExecStart=/usr/local/bin/waitress-serve --host=0.0.0.0 --port=8000 wsgi_dev:app
 WorkingDirectory=/srv/weatherapp/webapp
+ExecStart=/usr/local/bin/waitress-serve --host=0.0.0.0 --port=8000 wsgi_dev:app
 Restart=always
 
 [Install]

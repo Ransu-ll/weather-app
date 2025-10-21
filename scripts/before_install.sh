@@ -1,6 +1,7 @@
 #!/bin/bash
 set -e
-echo "BeforeInstall: Stopping any running service..."
+echo "BeforeInstall: stopping any running service..."
 systemctl stop weatherapp || true
-rm -rf /srv/weatherapp
 mkdir -p /srv/weatherapp
+find /srv/weatherapp -mindepth 1 -delete
+

@@ -1,12 +1,7 @@
-#!/usr/bin/env bash
+#!/bin/bash
 set -e
-echo "---- [ApplicationStop] Stopping service ----"
-
-# Stop via systemd first
+echo "Stopping weatherapp service..."
 systemctl stop weatherapp 2>/dev/null || true
-
-# Kill any remaining processes (updated path)
 pkill -f "waitress-serve" 2>/dev/null || true
 pkill -f "webapp/wsgi_dev.py" 2>/dev/null || true
-
-echo "Services stopped"
+echo "Service stopped"

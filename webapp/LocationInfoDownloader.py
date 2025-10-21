@@ -139,7 +139,11 @@ def get_town_info(files_locations: list[Path], town: str) -> Union[dict, None]:
             continue
         return result
     
-    logger.error(f"Could not find information about {town} in files: \n{"\n".join(files_locations)}")
+    logger.error(
+    "Could not find information about %s in files:\n%s",
+    town,
+    "\n".join(files_locations)
+)
 
 def retreive_town_info(location: str):
     town_files = get_town_files(location)

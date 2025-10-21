@@ -3,7 +3,7 @@ import logging
 from pathlib import Path
 from bidict import bidict
 
-from LocationInfoDownloader import retreive_town_info
+from webapp.LocationInfoDownloader import retreive_town_info
 
 logger = logging.getLogger(__name__)
 
@@ -50,6 +50,9 @@ def index():
 # 4.2.1. server must check datetime that file was downloaded
 # 4.2.2. if greater than 10 minutes, download new file, else keep current data
 # 5. pass the data to the template
+@app.route("/health")
+def health():
+    return "ok", 200
 
 @app.route("/town/<town_url>")
 def town_info(town_url):

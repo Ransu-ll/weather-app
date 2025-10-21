@@ -1,0 +1,23 @@
+version: 0.2
+phases:
+  install:
+    runtime-versions:
+      python: 3.9
+    commands:
+      - pip install --upgrade pip
+      - pip install -r webapp/requirements.txt
+      - pip install pytest
+  build:
+    commands:
+      - echo "Running unit tests..."
+      - pytest -q
+      - echo "Packaging for deployment..."
+      - rm -rf bundle && mkdir -p bundle
+      - cp appspec.yml bundle/
+      - cp -r scripts webapp bundle/
+      - chmod +x bundle/scripts/*.sh
+artifacts:
+  files:
+    - '**/*'
+  base-directory: bundle
+  discard-paths: no

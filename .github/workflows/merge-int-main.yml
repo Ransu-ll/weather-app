@@ -20,5 +20,5 @@ jobs:
           git fetch --unshallow
           git checkout main
           git pull
-          git merge --no-ff app-dev -m "Auto-merge app-dev into main"
+          git merge --no-ff origin/app-dev -m "Auto-merge app-dev into main"
           git push

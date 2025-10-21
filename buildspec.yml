@@ -1,5 +1,4 @@
 version: 0.2
-
 phases:
   install:
     runtime-versions:
@@ -13,9 +12,12 @@ phases:
       - echo "Running unit tests..."
       - pytest -q
       - echo "Packaging for deployment..."
-      - mkdir -p bundle
-      - cp -r appspec.yml scripts webapp/wsgi_dev.py webapp bundle/
+      - rm -rf bundle && mkdir -p bundle
+      - cp appspec.yml bundle/
+      - cp -r scripts webapp bundle/
+      - chmod +x bundle/scripts/*.sh
 artifacts:
   files:
-    - bundle/**/*
+    - '**/*'
+  base-directory: bundle
   discard-paths: no

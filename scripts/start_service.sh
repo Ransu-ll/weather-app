@@ -1,22 +1,24 @@
-#!/usr/bin/env bash
+#!/bin/bash
 set -e
+echo "Starting weatherapp service..."
+cat >/etc/systemd/system/weatherapp.service <<EOF
+[Unit]
+Description=Weather Flask App
+After=network.target
 
-echo "---- [ApplicationStart] Starting service ----"
+[Service]
+Type=simple
+User=ec2-user
+WorkingDirectory=/srv/weatherapp/webapp
+ExecStart=/usr/local/bin/waitress-serve --host=0.0.0.0 --port=8000 wsgi_dev:app
+Restart=always
 
-# Start weatherapp service
+[Install]
+WantedBy=multi-user.target
+EOF
+
+systemctl daemon-reload
 systemctl enable weatherapp
-systemctl start weatherapp
-
-# Wait and verify service
-sleep 3
-
-echo "Checking service status..."
-if systemctl is-active --quiet weatherapp; then
-    echo "✓ weatherapp service started successfully"
-else
-    echo "✗ weatherapp service failed to start"
-    journalctl -u weatherapp --no-pager -n 20
-    exit 1
-fi
-
-echo "Service started successfully"
+systemctl restart weatherapp
+sleep 2
+systemctl status weatherapp --no-pager

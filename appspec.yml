@@ -1,12 +1,16 @@
 version: 0.0
 os: linux
 files:
-  - source: /
-    destination: /srv/weatherapp
+  - source: webapp
+    destination: /srv/weatherapp/webapp
+  - source: scripts
+    destination: /srv/weatherapp/scripts
 permissions:
   - object: /srv/weatherapp
     owner: ec2-user
     group: ec2-user
+    mode: 755
+    type: [directory, file]
 hooks:
   BeforeInstall:
     - location: scripts/before_install.sh

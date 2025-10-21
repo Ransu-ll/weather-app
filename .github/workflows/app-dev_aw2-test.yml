@@ -5,10 +5,9 @@
 name: Build and deploy Python app to Azure Web App - aw2-test
 
 on:
-  workflow_run:
-      workflows: ["Automerge Successful Test Environment Deploys"]
-      types: [completed]
-      branches: [main]
+  push:
+    branches:
+      - app-dev
   workflow_dispatch:
 
 jobs:

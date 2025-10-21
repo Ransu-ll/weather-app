@@ -3,7 +3,7 @@ import logging
 from pathlib import Path
 from bidict import bidict
 
-from .LocationInfoDownloader import retreive_town_info
+from LocationInfoDownloader import retreive_town_info
 
 logger = logging.getLogger(__name__)
 

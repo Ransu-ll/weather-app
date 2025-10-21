@@ -3,7 +3,10 @@ import logging
 from pathlib import Path
 from bidict import bidict
 
-from webapp.LocationInfoDownloader import retreive_town_info
+try:
+    from webapp.LocationInfoDownloader import retreive_town_info
+except Exception as e:
+    from LocationInfoDownloader import retreive_town_info
 
 logger = logging.getLogger(__name__)
 

@@ -1,5 +1,4 @@
 version: 0.2
-
 phases:
   install:
     runtime-versions:
@@ -15,9 +14,8 @@ phases:
       - echo "Packaging for deployment..."
       - rm -rf bundle && mkdir -p bundle
       - cp appspec.yml bundle/
-      - cp -r scripts webapp tests bundle/
+      - cp -r scripts webapp bundle/
       - chmod +x bundle/scripts/*.sh
-
 artifacts:
   files:
     - '**/*'

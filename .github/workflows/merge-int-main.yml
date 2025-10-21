@@ -1,0 +1,27 @@
+name: Automerge Successful Test Environment Deploys
+on:
+  workflow_run:
+      workflows: ["Build and deploy Python app to Azure Web App - aw2-test"]
+      types: [completed]
+      branches: [app-dev]
+# Source: https://stackoverflow.com/a/67919937
+env:
+  MY_REPO: https://Ransu-ll:${{secrets.GITHUB_TOKEN}}@github.com/Ransu-ll/weather-app.git
+  MY_BRANCH: app-dev
+  MASTER_REPO: https://github.com/Ransu-ll/weather-app.git
+  MASTER_BRANCH: main
+
+jobs:
+  merge:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Merge with main
+          if: ${{ github.event.workflow_run.conclusion == 'success' }}
+          run: |
+            git clone ${{env.MY_REPO}} -b ${{env.MY_BRANCH}} tmp
+            cd tmp
+            git config user.name "Automerge Bot"
+            git config user.email "bot@example.com"
+            git config pull.rebase false
+            git pull ${{env.MASTER_REPO}} ${{env.MASTER_BRANCH}}
+            git push

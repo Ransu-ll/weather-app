@@ -73,4 +73,6 @@ jobs:
         with:
           app-name: 'aw2-test'
           slot-name: 'Production'
+          package: './webapp'
+
           

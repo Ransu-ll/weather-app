@@ -30,7 +30,7 @@ jobs:
         run: |
           python -m venv antenv
           source antenv/bin/activate
-          pip install -r ./webapp/requirements.txt
+          pip install -r requirements.txt
                 
       # By default, when you enable GitHub CI/CD integration through the Azure portal, the platform automatically sets the SCM_DO_BUILD_DURING_DEPLOYMENT application setting to true. This triggers the use of Oryx, a build engine that handles application compilation and dependency installation (e.g., pip install) directly on the platform during deployment. Hence, we exclude the antenv virtual environment directory from the deployment artifact to reduce the payload size. 
       - name: Upload artifact for deployment jobs
@@ -63,9 +63,9 @@ jobs:
       - name: Login to Azure
         uses: azure/login@v2
         with:
-          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_60132F0095E546E2940AEDC91ECED355 }}
-          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_8C73163D5CE849B2B0292D492FF275DE }}
-          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_B868C8EF60984F92A639B967A8427F7B }}
+          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_DDC628E5F4B3456DB7817DC6668CE1DE }}
+          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_872D5127B14948C092591A778D4BA2AF }}
+          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_FA6C142FA7DB488382DBA125F253A627 }}
 
       - name: 'Deploy to Azure Web App'
         uses: azure/webapps-deploy@v3
@@ -73,7 +73,4 @@ jobs:
         with:
           app-name: 'aw2-test'
           slot-name: 'Production'
-          package: './webapp'
-
           
-

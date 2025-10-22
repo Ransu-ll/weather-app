@@ -2,6 +2,9 @@ from flask import Flask, render_template, request
 import logging
 from pathlib import Path
 from bidict import bidict
+from datetime import datetime
+import pprint
+
 
 try:
     from webapp.LocationInfoDownloader import retreive_town_info
@@ -70,7 +73,17 @@ def town_info(town_url):
     town_data = retreive_town_info(current_town)
     logger.info(town_data)
 
-    return render_template("town.jinja2", towns=towns_info, town_data=town_data, town_name=current_town)
+
+  
+
+    return render_template("town.jinja2",
+                       towns=towns_info,
+                       town_data=town_data,
+                       town_name=current_town,
+                       current_time=datetime.now())
+
+
+    # return render_template("town.jinja2", towns=towns_info, town_data=town_data, town_name=current_town)
 
 @app.route("/town_info_get", methods=["GET"])
 def town_info_get():
@@ -86,8 +99,19 @@ def town_info_get():
     # Town data should get the latest forecast of the town data
     town_data = retreive_town_info(current_town)
 
-    return render_template("town.jinja2", towns=towns_info, town_data=town_data, town_name=current_town)
+    # return render_template("town.jinja2", towns=towns_info, town_data=town_data, town_name=current_town)
+    return render_template(
+        "town.jinja2",
+        towns=towns_info,
+        town_data=town_data,
+        town_name=current_town,
+        current_time=datetime.now()
+        
+    )
+
 
 @app.errorhandler(404)
 def page_not_found(e):
     return render_template("notfound.jinja2", towns=towns_info)
+
+

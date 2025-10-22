@@ -10,6 +10,8 @@ except Exception as e:
 
 logger = logging.getLogger(__name__)
 
+logging.basicConfig(level=logging.INFO)
+
 app = Flask(__name__)
 
 location_this_file = Path(__file__).parent.resolve()

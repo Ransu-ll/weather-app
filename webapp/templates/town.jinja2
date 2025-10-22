@@ -133,68 +133,6 @@
     </div>
   </div>
 
-  <!-- RIGHT SIDEBAR -->
-  <div class="sidebar">
-    {% set hour = current_time.hour %}
-    <h3>
-      Good {% if hour < 12 %}Morning{% elif hour < 18 %}Afternoon{% else %}Evening{% endif %}
-    </h3>
-    <p class="time">{{ current_time.strftime('%I:%M %p') }}</p>
-
-    {% set precis_clean = first_day['precis']|lower|replace('.', '')|trim %}
-    {% set icon_file = icon_map['default'] %}
-    {% if 'rain' in precis_clean or 'shower' in precis_clean %}
-      {% set icon_file = icon_map['rain'] %}
-    {% elif 'cloud' in precis_clean %}
-      {% set icon_file = icon_map['cloudy'] %}
-    {% elif 'sunny' in precis_clean or 'mostly sunny' in precis_clean %}
-      {% set icon_file = icon_map['sunny'] %}
-    {% elif 'fog' in precis_clean or 'mist' in precis_clean %}
-      {% set icon_file = icon_map['fog'] %}
-    {% elif 'thunder' in precis_clean or 'storm' in precis_clean %}
-      {% set icon_file = icon_map['thunder'] %}
-    {% endif %}
-
-    <div class="mini-card">
-      <img src="{{ url_for('static', filename='icons/' + icon_file) }}" alt="{{ first_day['precis'] }}">
-      <p>
-        {% if 'air_temperature_minimum' in first_day %}
-          {{ first_day['air_temperature_minimum'] }}° –
-        {% endif %}
-        {% if 'air_temperature_maximum' in first_day %}
-          {{ first_day['air_temperature_maximum'] }}°
-        {% endif %} | {{ first_day['precis'] }}
-      </p>
-    </div>
-
-    <h4>Next Forecasts</h4>
-    <div class="hourly">
-      {% set limited_forecast = town_data.items()|list %}
-      {% for date, details in limited_forecast[:4] %}
-        {% set precis_clean = details['precis']|lower|replace('.', '')|trim %}
-        {% set icon_file = icon_map['default'] %}
-        {% if 'rain' in precis_clean or 'shower' in precis_clean %}
-          {% set icon_file = icon_map['rain'] %}
-        {% elif 'cloud' in precis_clean %}
-          {% set icon_file = icon_map['cloudy'] %}
-        {% elif 'sunny' in precis_clean or 'mostly sunny' in precis_clean %}
-          {% set icon_file = icon_map['sunny'] %}
-        {% elif 'thunder' in precis_clean or 'storm' in precis_clean %}
-          {% set icon_file = icon_map['thunder'] %}
-        {% elif 'fog' in precis_clean or 'mist' in precis_clean %}
-          {% set icon_file = icon_map['fog'] %}
-        {% endif %}
-        <div class="hour">
-          <img src="{{ url_for('static', filename='icons/' + icon_file) }}" alt="{{ details['precis'] }}">
-          <p class="hour-date">{{ date[-5:] }}</p>
-          {% if 'air_temperature_maximum' in details %}
-            <p>{{ details['air_temperature_maximum'] }}°</p>
-          {% endif %}
-          <p class="hour-condition">{{ details['precis'] }}</p>
-        </div>
-      {% endfor %}
-    </div>
-  </div>
 </div>
 </body>
 </html>

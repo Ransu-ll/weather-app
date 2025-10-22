@@ -27,25 +27,6 @@
             </form>
         </div>
     </div>
-    <!-- ✅ JS for dynamic autocomplete from Flask -->
-    <script>
-    document.addEventListener("DOMContentLoaded", function() {
-        const datalist = document.getElementById("towns");
-
-        fetch("/api/towns")
-            .then(response => response.json())
-            .then(data => {
-                datalist.innerHTML = "";
-                data.forEach(town => {
-                    const option = document.createElement("option");
-                    option.value = town;
-                    datalist.appendChild(option);
-                });
-            })
-            .catch(err => {
-                console.error("⚠️ Error loading town list:", err);
-            });
-    });
-    </script>
+    
 </body>
 </html>

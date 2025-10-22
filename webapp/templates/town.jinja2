@@ -8,6 +8,8 @@
 </head>
 
 <body>
+
+
 {% set icon_map = {
   "partly cloudy": "weather-svgrepo-com (1).svg",
   "cloudy": "weather-svgrepo-com (1).svg",
@@ -28,7 +30,20 @@
 
 <div class="weather-container">
   <!-- LEFT MAIN CARD -->
+  
+
   <div class="main-card">
+  <div class="search-bar">
+  <form action="{{ url_for('town_info_get') }}" method="get" class="search-form">
+    <input type="text" name="town" placeholder="Search for another town..." required list="towns-list">
+    <datalist id="towns-list">
+      {% for town in towns.keys() %}
+        <option value="{{ town }}">
+      {% endfor %}
+    </datalist>
+    <button type="submit">Go</button>
+  </form>
+</div>
     <div class="top">
       <h2>{{ town_name }}</h2>
       <p>{{ (town_data.keys()|list)[0] }}</p>

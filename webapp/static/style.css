@@ -15,6 +15,93 @@ html, body {
 * {
     transition: all 0.25s ease-in-out;
 }
+/* ===============================
+   SEARCH BAR (RIGHT SIDE STYLE)
+=================================*/
+.search-bar {
+  position: absolute;
+  top: 25px;             /* Adjust vertical position */
+  right: 50px;           /* Push it away from the right edge */
+  z-index: 100;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 10px 15px;
+}
+
+.search-form {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.search-form input[type="text"] {
+  width: 220px;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 0.95em;
+  outline: none;
+}
+
+.search-form button {
+  padding: 8px 16px;
+  background-color: #4c8bf5;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-form button:hover {
+  background-color: #3a6fd8;
+}
+
+
+/* .search-bar {
+  width: 40vw;               /* match .weather-container width */
+  max-width: 100px;
+  margin: 20px auto;         /* center it horizontally */
+  display: flex;
+  justify-content: left;
+}
+
+.search-form {
+  display: flex;
+  gap: 10px;
+  align-items: left;
+  background: #fff;
+  padding: 10px 15px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  width: 100%;
+  max-width: 600px;
+}
+
+.search-form input[type="text"] {
+  flex: 1;
+  padding: 10px 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1em;
+  outline: none;
+}
+
+.search-form button {
+  padding: 10px 20px;
+  background-color: #4c8bf5;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.search-form button:hover {
+  background-color: #3a6fd8;
+} */
+
 
 .weather-container {
     display: flex;

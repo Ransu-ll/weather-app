@@ -6,7 +6,7 @@ name: Build + Deploy onto aw2-prod
 
 on:
   workflow_run:
-    workflows: ["Automerge Successful Test Environment Deploys"]
+    workflows: ["Build + Test + Deploy onto aw2-test"]
     branches: [main]
   workflow_dispatch:
 

@@ -7,7 +7,7 @@ name: Build + Deploy onto aw2-prod
 on:
   workflow_run:
     workflows: ["Build + Test + Deploy onto aw2-test"]
-    branches: [main]
+    branches: [app-dev]
     types: [completed]
   workflow_dispatch:
 

@@ -1,54 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="The main webpage of this webapp">
-    <meta name="keywords" content="weather, australia, webapp">
-    <title>AW2</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='pure.css') }}">
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ town_name }} - Weather Forecast</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
+
 <body>
-    <h1 class="centre">Aussie's Weather Webapp - Forecasting</h1>
 
-    <form action="/town_info_get" method="get">
-        <label for="townsearch">
-            <p class="centre">
-                Which town would you like to find information on?
-                <br>
-                <input id="townsearch" list="towns" name="town" required>
-                <button type="submit">Go</button>
-            </p>
-        </label>
-        <datalist id="towns">
-        {% for town in towns.keys() %}
-            <option value="{{ town|e }}"></option>
-        {% endfor %}
-        </datalist>
-    </form>
 
-    <h2 class="centre">Forecast for {{ town_name }}</h2>
+{% set icon_map = {
+  "partly cloudy": "weather-svgrepo-com (1).svg",
+  "cloudy": "weather-svgrepo-com (1).svg",
+  "mostly sunny": "weather-symbol-1-svgrepo-com.svg",
+  "sunny": "weather-symbol-1-svgrepo-com.svg",
+  "clear": "weather-symbol-1-svgrepo-com.svg",
+  "shower": "weather-rain-svgrepo-com.svg",
+  "rain": "weather-rain-svgrepo-com.svg",
+  "wind": "weather-windy-svgrepo-com.svg",
+  "thunder": "weather-2-svgrepo-com.svg",
+  "storm": "weather-2-svgrepo-com.svg",
+  "snow": "weather-symbol-18-svgrepo-com.svg",
+  "fog": "weather-symbol-22-svgrepo-com.svg",
+  "mist": "weather-symbol-7-svgrepo-com.svg",
+  "night": "weather-color-moon-stars-svgrepo-com.svg",
+  "default": "weather-svgrepo-com.svg"
+} %}
 
-    {% for key_date in town_data.keys() %}
-        <div class="centre">
-            <h3>{{ key_date }}</h3>
-                <div class="centre-text-with-image">
-                    <img src="{{ url_for('static', filename='' + town_data[key_date]['forecast_icon_code'])  }}" class="weather-icon">
-                    <strong>{{ town_data[key_date]["precis"] }}</strong>
-                </div>
-            </p>
-            {% if 'air_temperature_minimum' in town_data[key_date].keys() %}
-                <p>Minimum: {{ town_data[key_date]["air_temperature_minimum"] }} °C</p>
-            {% endif %}
-            {% if 'air_temperature_maximum' in town_data[key_date].keys() %}
-                <p>Maximum: {{ town_data[key_date]["air_temperature_maximum"] }} °C</p>
-            {% endif %}
-            <p>Chance of rain: {{ town_data[key_date]["probability_of_precipitation"] }}</p>
-            {% if 'precipitation_range' in town_data[key_date].keys() %}
-                <p>Potential rainfall: {{ town_data[key_date]["precipitation_range"] }}</p>
-            {% endif %}
+<div class="weather-container">
+  <!-- LEFT MAIN CARD -->
+  
+
+  <div class="main-card">
+  <div class="search-bar">
+  <form action="{{ url_for('town_info_get') }}" method="get" class="search-form">
+    <input type="text" name="town" placeholder="Search for another town..." required list="towns-list">
+    <datalist id="towns-list">
+      {% for town in towns.keys() %}
+        <option value="{{ town }}">
+      {% endfor %}
+    </datalist>
+    <button type="submit">Go</button>
+  </form>
+</div>
+    <div class="top">
+      <h2>{{ town_name }}</h2>
+      <p>{{ (town_data.keys()|list)[0] }}</p>
+    </div>
+
+    {% set first_day = town_data[(town_data.keys()|list)[0]] %}
+    {% set precis_clean = first_day['precis']|lower|replace('.', '')|trim %}
+    {% set icon_file = icon_map['default'] %}
+    {% if 'rain' in precis_clean or 'shower' in precis_clean %}
+      {% set icon_file = icon_map['rain'] %}
+    {% elif 'cloud' in precis_clean %}
+      {% set icon_file = icon_map['cloudy'] %}
+    {% elif 'sunny' in precis_clean or 'mostly sunny' in precis_clean %}
+      {% set icon_file = icon_map['sunny'] %}
+    {% elif 'clear' in precis_clean %}
+      {% set icon_file = icon_map['clear'] %}
+    {% elif 'fog' in precis_clean or 'mist' in precis_clean %}
+      {% set icon_file = icon_map['fog'] %}
+    {% elif 'snow' in precis_clean %}
+      {% set icon_file = icon_map['snow'] %}
+    {% elif 'thunder' in precis_clean or 'storm' in precis_clean %}
+      {% set icon_file = icon_map['thunder'] %}
+    {% endif %}
+
+    <div class="center">
+      <img class="main-icon" src="{{ url_for('static', filename='icons/' + icon_file) }}" alt="{{ first_day['precis'] }}">
+      <div class="temp">
+        {% if 'air_temperature_minimum' in first_day %}
+          {{ first_day['air_temperature_minimum'] }}° – 
+        {% endif %}
+        {% if 'air_temperature_maximum' in first_day %}
+          {{ first_day['air_temperature_maximum'] }}°
+        {% endif %}
+      </div>
+      <div class="condition">{{ first_day['precis'] }}</div>
+      <div class="metrics">
+        {% if 'probability_of_precipitation' in first_day %}
+          <p>💧 Chance of rain: {{ first_day['probability_of_precipitation'] }}</p>
+        {% endif %}
+        {% if 'precipitation_range' in first_day %}
+          <p>🌧 Rainfall: {{ first_day['precipitation_range'] }}</p>
+        {% endif %}
+      </div>
+    </div>
+
+    <!-- 7-DAY FORECAST -->
+    <div class="forecast">
+      {% for date, details in town_data.items() %}
+        {% set precis_clean = details['precis']|lower|replace('.', '')|trim %}
+        {% set icon_file = icon_map['default'] %}
+        {% if 'rain' in precis_clean or 'shower' in precis_clean %}
+          {% set icon_file = icon_map['rain'] %}
+        {% elif 'cloud' in precis_clean %}
+          {% set icon_file = icon_map['cloudy'] %}
+        {% elif 'sunny' in precis_clean or 'mostly sunny' in precis_clean %}
+          {% set icon_file = icon_map['sunny'] %}
+        {% elif 'clear' in precis_clean %}
+          {% set icon_file = icon_map['clear'] %}
+        {% elif 'fog' in precis_clean or 'mist' in precis_clean %}
+          {% set icon_file = icon_map['fog'] %}
+        {% elif 'snow' in precis_clean %}
+          {% set icon_file = icon_map['snow'] %}
+        {% elif 'thunder' in precis_clean or 'storm' in precis_clean %}
+          {% set icon_file = icon_map['thunder'] %}
+        {% endif %}
+
+        <div class="day">
+          <p class="forecast-date">{{ date }}</p>
+          <img class="forecast-icon"
+               src="{{ url_for('static', filename='icons/' + icon_file) }}"
+               alt="{{ details['precis'] }}">
+          <p class="condition"><strong>{{ details['precis'] }}</strong></p>
+          {% if 'air_temperature_minimum' in details %}
+            <p>Min: {{ details['air_temperature_minimum'] }} °C</p>
+          {% endif %}
+          {% if 'air_temperature_maximum' in details %}
+            <p>Max: {{ details['air_temperature_maximum'] }} °C</p>
+          {% endif %}
+          {% if 'probability_of_precipitation' in details %}
+            <p>Chance of rain: {{ details['probability_of_precipitation'] }}</p>
+          {% endif %}
+          {% if 'precipitation_range' in details %}
+            <p>Potential rainfall: {{ details['precipitation_range'] }}</p>
+          {% endif %}
         </div>
-    {% endfor %}
+      {% endfor %}
+    </div>
+  </div>
+
+</div>
 </body>
 </html>

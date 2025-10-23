@@ -8,6 +8,7 @@ on:
   workflow_run:
     workflows: ["Build + Test + Deploy onto aw2-test"]
     branches: [app-dev]
+    types: [completed]
   workflow_dispatch:
 
 jobs:

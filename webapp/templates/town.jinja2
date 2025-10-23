@@ -110,6 +110,7 @@
           {% set icon_file = icon_map['thunder'] %}
         {% endif %}
 
+        {% if date != (town_data.keys()|list)[0] %}
         <div class="day">
           <p class="forecast-date">{{ date }}</p>
           <img class="forecast-icon"
@@ -129,6 +130,7 @@
             <p>Potential rainfall: {{ details['precipitation_range'] }}</p>
           {% endif %}
         </div>
+        {% endif %}
       {% endfor %}
     </div>
   </div>

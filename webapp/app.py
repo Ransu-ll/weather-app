@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, redirect, abort
 import logging
 from pathlib import Path
 from bidict import bidict
@@ -39,81 +39,50 @@ def sanitise_str(to_sanitise):
 towns_info = bidict({})
 
 for town in towns.split("\n"):
-    towns_info[town] = sanitise_str(town.lower().replace(", ", "-").replace(" ", "-"))
+    towns_info[town] = town.lower().replace(", ", "-").replace(" ", "-")
 
 @app.route("/")
 def index():
     logger.info("Connected to index")
     return render_template("index.jinja2", towns=towns_info)
 
-# TODO: when user presses "go", it should redirect the user to the relevant town page containing 
-# the town information
-# 1. user looks up a town 
-# 2. most relevant towns by name are shown, if any
-# 3. user selects a town
-# 4. server checks if it has a file downloaded from the town
-# 4.1.0. server does not have town
-# 4.1.1. server downloads town information
-# 4.2.0. server has town
-# 4.2.1. server must check datetime that file was downloaded
-# 4.2.2. if greater than 10 minutes, download new file, else keep current data
-# 5. pass the data to the template
-@app.route("/health")
-def health():
-    return "ok", 200
-
 @app.route("/town/<town_url>")
 def town_info(town_url):
-    town_url = sanitise_str(town_url)
-    if town_url not in towns_info.values():
-        logger.warning(f"Could not find {town_url}")
-        return render_template("notfound.jinja2", towns=towns_info)
     logger.info(f"Connected to {town_url}")
 
-    current_town = towns_info.inverse[town_url]
+    try:
+        current_town_url = towns_info.inverse[town_url]
+    except KeyError:
+        logger.warning(f"{request.remote_addr} tried to find town via direct link:\n{town_url}")
+        return abort(400)
+    
     # Town data should get the latest forecast of the town data
-    town_data = retreive_town_info(current_town)
+    town_data = retreive_town_info(current_town_url)
     logger.info(town_data)
-
-
-  
 
     return render_template("town.jinja2",
                        towns=towns_info,
                        town_data=town_data,
-                       town_name=current_town,
+                       town_name=current_town_url,
                        current_time=datetime.now())
-
-
-    # return render_template("town.jinja2", towns=towns_info, town_data=town_data, town_name=current_town)
 
 @app.route("/town_info_get", methods=["GET"])
 def town_info_get():
     current_town = request.args["town"]
-    current_town = sanitise_str(current_town)
-    logger.info(current_town)
+    logger.info(f"Searched for {current_town} via GET method")
 
-    if current_town not in towns_info.keys():
-        logger.warning(f"Could not find {current_town}")
-        return render_template("notfound.jinja2", towns=towns_info)
-    logger.info(f"Requested for {current_town}")
-
-    # Town data should get the latest forecast of the town data
-    town_data = retreive_town_info(current_town)
-
-    # return render_template("town.jinja2", towns=towns_info, town_data=town_data, town_name=current_town)
-    return render_template(
-        "town.jinja2",
-        towns=towns_info,
-        town_data=town_data,
-        town_name=current_town,
-        current_time=datetime.now()
-        
-    )
+    try:
+        current_town_url = towns_info[current_town]
+    except KeyError:
+        logger.warning(f"{request.remote_addr} tried to find following town name via GET:\n{current_town}")
+        return abort(400)
+    return redirect(f"town/{current_town_url}")
 
 
 @app.errorhandler(404)
 def page_not_found(e):
-    return render_template("notfound.jinja2", towns=towns_info)
+    return render_template("notfound.jinja2", towns=towns_info, whatNotFound="page", prompt="Why not search for a town instead?")
 
-
+@app.errorhandler(400)
+def town_not_found(e):
+    return render_template("notfound.jinja2", towns=towns_info, whatNotFound="town", prompt="Enter a valid town")

@@ -75,4 +75,18 @@ jobs:
           app-name: 'aw2-test'
           slot-name: 'Production'
           package: './webapp'
-          
+
+  merge:
+    runs-on: ubuntu-latest
+    needs: deploy
+    steps:
+      - uses: actions/checkout@v2
+      - name: Merge app-dev into main
+        run: |
+          git config --local user.email = "actions@github.com"
+          git config --local user.name "Github Actions"
+          git fetch --unshallow
+          git checkout main
+          git pull
+          git merge --no-ff origin/app-dev -m "Auto-merge app-dev into main"
+          git push

@@ -2,21 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Town Not Found - AW2</title>
+    <title>{{ whatNotFound.capitalize() }} Not Found - AW2</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
     <div class="search-wrapper">
         <div class="search-card">
             <h1>🌦️ Aussie's Weather Webapp</h1>
-            <h2>Sorry, we couldn’t find weather data for this town.</h2>
+            <h2>Sorry, we couldn't find that {{ whatNotFound }}</h2>
 
             <form action="/town_info_get" method="get" class="search-form">
                 <label for="townsearch">
                     <p>
-                        Try searching for another town:
+                        {{ prompt }}
                         <br>
-                        <input id="townsearch" list="towns" name="town" placeholder="e.g., Sydney" required>
+                        <input id="townsearch" list="towns" name="town" placeholder="e.g., Sydney, NSW" required>
                         <button type="submit">Go</button>
                     </p>
                 </label>

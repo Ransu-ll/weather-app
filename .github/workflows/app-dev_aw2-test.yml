@@ -80,6 +80,7 @@ jobs:
 
   merge:
     runs-on: ubuntu-latest
+    needs: deploy
     steps:
       - uses: actions/checkout@v2
       - name: Merge app-dev into main

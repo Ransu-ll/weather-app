@@ -2,31 +2,31 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="The main webpage of this webapp">
-    <meta name="keywords" content="weather, australia, webapp">
-    <title>AW2</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='pure.css') }}">
+    <title>Town Not Found - AW2</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
-    <h1 class="centre">Aussie's Weather Webapp - Forecast</h1>
+    <div class="search-wrapper">
+        <div class="search-card">
+            <h1>🌦️ Aussie's Weather Webapp</h1>
 
-    <form action="/town_info_get" method="get">
-        <label for="townsearch">
-            <p class="centre">
-                Which town would you like to find information on?
-                <br>
-                <input id="townsearch" list="towns" name="town" required>
-                <button type="submit">Go</button>
-            </p>
-        </label>
-        <datalist id="towns">
-        {% for town in towns.keys() %}
-            <option value="{{ town|e }}"></option>
-        {% endfor %}
-        </datalist>
-    </form>
-
+            <form action="/town_info_get" method="get" class="search-form">
+                <label for="townsearch">
+                    <p>
+                        search for town:
+                        <br>
+                        <input id="townsearch" list="towns" name="town" placeholder="e.g. Sydney, NSW" required>
+                        <button type="submit">Go</button>
+                    </p>
+                </label>
+                <datalist id="towns">
+                    {% for town in towns.keys() %}
+                        <option value="{{ town|e }}"></option>
+                    {% endfor %}
+                </datalist>
+            </form>
+        </div>
+    </div>
+    
 </body>
 </html>

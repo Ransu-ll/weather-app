@@ -2,32 +2,51 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="The main webpage of this webapp">
-    <meta name="keywords" content="weather, australia, webapp">
-    <title>AW2</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='pure.css') }}">
+    <title>{{ whatNotFound.capitalize() }} Not Found - AW2</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
-    <h1 class="centre">Aussie's Weather Webapp - Forecasting</h1>
-    <h2 class="centre">Could not find that page.</h2>
+    <div class="search-wrapper">
+        <div class="search-card">
+            <h1>🌦️ Aussie's Weather Webapp</h1>
+            <h2>Sorry, we couldn't find that {{ whatNotFound }}</h2>
 
-    <form action="/town_info_get" method="get">
-        <label for="townsearch">
-            <p class="centre">
-                Maybe try searching for a town?
-                <br>
-                <input id="townsearch" list="towns" name="town" required>
-                <button type="submit">Go</button>
-            </p>
-        </label>
-        <datalist id="towns">
-        {% for town in towns.keys() %}
-            <option value="{{ town|e }}"></option>
-        {% endfor %}
-        </datalist>
-    </form>
+            <form action="/town_info_get" method="get" class="search-form">
+                <label for="townsearch">
+                    <p>
+                        {{ prompt }}
+                        <br>
+                        <input id="townsearch" list="towns" name="town" placeholder="e.g., Sydney, NSW" required>
+                        <button type="submit">Go</button>
+                    </p>
+                </label>
+                <datalist id="towns">
+                    {% for town in towns.keys() %}
+                        <option value="{{ town|e }}"></option>
+                    {% endfor %}
+                </datalist>
+            </form>
+        </div>
+    </div>
+    <!-- ✅ JS for dynamic autocomplete from Flask -->
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const datalist = document.getElementById("towns");
 
+        fetch("/api/towns")
+            .then(response => response.json())
+            .then(data => {
+                datalist.innerHTML = "";
+                data.forEach(town => {
+                    const option = document.createElement("option");
+                    option.value = town;
+                    datalist.appendChild(option);
+                });
+            })
+            .catch(err => {
+                console.error("⚠️ Error loading town list:", err);
+            });
+    });
+    </script>
 </body>
 </html>

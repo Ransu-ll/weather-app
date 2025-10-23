@@ -81,8 +81,8 @@ jobs:
     needs: deploy
     steps:
       - uses: actions/checkout@v5
-        # with:
-        #   token: ${{ secrets.PAT }}
+        with:
+          token: ${{ secrets.PAT }}
       - name: Merge app-dev into main
         run: |
           git config --local user.email = "actions@github.com"

@@ -2,14 +2,13 @@
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 # More info on Python, GitHub Actions, and Azure App Service: https://aka.ms/python-webapps-actions
 
-name: Build + Deploy onto aw2-prod
+name: Build_Deploy_aw2-prod
 
 on:
   workflow_run:
-    workflows: [Build + Test + Deploy onto aw2-test]
+    workflows: [Build_Test_Deploy_aw2-test]
     branches: [app-dev]
-    types:
-      - completed
+    types: [completed]
   workflow_dispatch:
 
 jobs:

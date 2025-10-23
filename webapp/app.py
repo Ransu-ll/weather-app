@@ -81,17 +81,8 @@ def town_info_get():
 
 @app.errorhandler(404)
 def page_not_found(e):
-    return redirect("/404")
+    return render_template("notfound.jinja2", towns=towns_info, whatNotFound="page", prompt="Why not search for a town instead?")
 
 @app.errorhandler(400)
 def town_not_found(e):
-    return redirect("/400")
-
-
-@app.route("/404")
-def _404():
-    return render_template("notfound.jinja2", towns=towns_info, whatNotFound="page", prompt="Why not search for a town instead?")
-
-@app.route("/400")
-def _400():
     return render_template("notfound.jinja2", towns=towns_info, whatNotFound="town", prompt="Enter a valid town")

@@ -121,6 +121,8 @@ html, body {
     flex-direction: column;
     justify-content: space-between;
     background: linear-gradient(135deg, #fefefe, #f9fafb);
+    border-radius: 0 0 12px 12px;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.1)
 }
 
 .top {

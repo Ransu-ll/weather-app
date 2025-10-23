@@ -7,7 +7,7 @@ name: Build + Test + Deploy onto aw2-test & merge into main
 on:
   push:
     branches:
-      - app-dev
+      - 'app-dev'
   workflow_dispatch:
 
 jobs:

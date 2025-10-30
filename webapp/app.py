@@ -57,14 +57,17 @@ def town_info(town_url):
         return abort(400)
     
     # Town data should get the latest forecast of the town data
-    town_data = retreive_town_info(current_town_url)
-    logger.info(town_data)
-
-    return render_template("town.jinja2",
+    try:
+        town_data = retreive_town_info(current_town_url)
+        logger.info(town_data)
+        return render_template("town.jinja2",
                        towns=towns_info,
                        town_data=town_data,
                        town_name=current_town_url,
                        current_time=datetime.now())
+    except Exception as e:
+        return "We are unable to connect to the Bureau of Meteorology's FTP servers."
+    
 
 @app.route("/town_info_get", methods=["GET"])
 def town_info_get():

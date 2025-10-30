@@ -69,7 +69,7 @@ def download_town_files(files: str) -> list[str]:
 
         if full_filepath.exists() is False:
             logger.info(f"Downloading file {file}.xml due to it not existing yet.")
-            download_file_from_bom(file_path, file_name)
+            status = download_file_from_bom(file_path, file_name)
             results.append(full_filepath)
 
         else:
@@ -80,11 +80,13 @@ def download_town_files(files: str) -> list[str]:
 
             if diff > threshold:
                 logger.info(f"Downloading file {file}.xml due to it existing but being too old.")
-                download_file_from_bom(file_path, file_name)
+                status = download_file_from_bom(file_path, file_name)
                 results.append(full_filepath)
             else:
-                logger.info(f"Not updating the file {file} due to it being too new.")
+                status = logger.info(f"Not updating the file {file} due to it being too new.")
                 results.append(full_filepath)
+        if (status != 0):
+            raise Exception("Could not connect to FTP server.")
     
     return results
 
